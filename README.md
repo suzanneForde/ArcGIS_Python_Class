@@ -14,3 +14,17 @@ I'm currently a second-year graduate student in the Master of Environmental Scie
 In undergrad, I double majored in Marine Affairs (B.A.) and English (B.A.) also at URI. 
 
 ![fish_portrait](https://github.com/suzanneForde/ArcGIS_Python_Class/assets/157830253/85273932-c23e-4cae-8c0f-89e290395d3b)
+
+
+
+
+### Skills
+
+
+
+
+### Past work and internship experience
+
+
+### Take a look @ my [photography blog] (https://sites.google.com/uri.edu/
+suziesphotography)!
