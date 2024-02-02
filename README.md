@@ -16,6 +16,7 @@ Here's a portrait of me. I cut the background out and inserted a picture I took 
 ### Skills
 + Fluent in Spanish
 + 3 years of GIS experience
++ 
 
 
 ### Hobbies
