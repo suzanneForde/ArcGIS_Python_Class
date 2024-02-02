@@ -23,7 +23,7 @@ Here's a portrait of me. I cut the background out and inserted a picture I took 
 + Photography
 + Baking (I used to work in a cupcake shop)
 + Reading boring books
-+ Creative writing (mostly terrible poetry)
++ Creative writing (mostly poetry)
 
 
 
