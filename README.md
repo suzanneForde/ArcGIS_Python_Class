@@ -20,11 +20,25 @@ Here's a portrait of me. I cut the background out and inserted a picture I took 
 
 
 ### Skills
-
++
 
 
 
 ### Past work and internship experience
+1. Green Energy Consumers Alliance            Member Services Intern              9/2021 - 11/2021
+	- Advocated for local residents to make the switch to green energy
+	- Managed customer accounts through Mermaid
+	- Communicated with customers through the email website Helpscout
+	- Drafted bulk emails
+	- Facilitated community outreach at wind farm and electric vehicle showcases
+	- Used the JustCall website/app to communicate with customers
+
+1. URI Campus Store                     Textbooks/Shipping & Packaging                10/2019 - 3/2020
+	- Restocked, arranged, and organized university merchandise and text books
+	- Packaged merchandise for shipping
+	- Maintained and organized processing area
+	- Answered customer phone calls
+	- Used Adobe Photoshop and Canva to design advertisements
 
 
 ### Take a look @ my [photography blog](https://sites.google.com/uri.edu/suziesphotography)!
