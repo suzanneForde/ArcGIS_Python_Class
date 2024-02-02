@@ -16,12 +16,14 @@ Here's a portrait of me. I cut the background out and inserted a picture I took 
 ### Skills
 + Fluent in Spanish
 + 3 years of GIS experience
-+ 
++ Sharp attention to detail
 
 
 ### Hobbies
 + Photography
 + Baking (I used to work in a cupcake shop)
++ Reading boring books
++ Creative writing (mostly terrible poetry)
 
 
 
