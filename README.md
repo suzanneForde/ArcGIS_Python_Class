@@ -26,4 +26,4 @@ In undergrad, I double majored in Marine Affairs (B.A.) and English (B.A.) also 
 ### Past work and internship experience
 
 
-### Take a look @ my [photography blog] (https://sites.google.com/uri.edu/suziesphotography)!
+### Take a look @ my [photography blog](https://sites.google.com/uri.edu/suziesphotography)!
