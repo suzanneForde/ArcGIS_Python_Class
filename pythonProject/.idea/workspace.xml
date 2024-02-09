@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23e469c6-b1ad-4f66-9af3-d3e59666a3fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Class_02/Week2_Part1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_02/Week2_Part2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_02/Week2_Part3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_02/Week2_Part4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_02/Week2_Part5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +35,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Step_1.executor": "Run",
+    "Python.Step_2.executor": "Run",
+    "Python.Step_3.executor": "Run",
+    "Python.Step_4.executor": "Run",
+    "Python.Step_5.executor": "Run",
+    "Python.Step_6.executor": "Run",
     "Python.Week2_Part1.executor": "Run",
     "Python.Week2_Part2.executor": "Run",
     "Python.Week2_Part3.executor": "Run",
@@ -46,14 +48,14 @@
     "Python.Week2_Part5.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Coding__Challenges",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/NRS528_Py_GIS/ArcGIS_Python_Class/pythonProject",
-    "settings.editor.selected.configurable": "project.propVCSSupport.ChangelistConflict"
+    "last_opened_file_path": "C:/NRS528_Py_GIS",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Week2_Part1" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
+    <configuration name="Step_4" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,7 +69,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_02/Week2_Part1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_02/Step_4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
