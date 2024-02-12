@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23e469c6-b1ad-4f66-9af3-d3e59666a3fb" name="Changes" comment="" />
+    <list default="true" id="23e469c6-b1ad-4f66-9af3-d3e59666a3fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Chall_3_SForde/Week3_Part1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Coding_Challenges/Chall_2_SForde/Week2_Part1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Coding_Challenges/Chall_2_SForde/Week2_Part2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Coding_Challenges/Chall_2_SForde/Week2_Part3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Coding_Challenges/Chall_2_SForde/Week2_Part4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Coding_Challenges/Chall_2_SForde/Week2_Part5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Coding_Challenges/Chall_3_SForde/test_file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
