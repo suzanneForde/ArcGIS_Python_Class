@@ -24,7 +24,11 @@ for subfolder_name in subfolder_names:
     os.makedirs(os.path.join('draft_code', subfolder_name))
 
 
-subfolder_names = ['pending', 'complete']
-for subfolder_name in subfolder_names:
-    os.makedirs(os.path.join('draft_code', subfolder_name))
+subfolder_names2 = ['default', 'post']
+for subfolder_name in subfolder_names2:
+    os.makedirs(os.path.join('layouts', subfolder_name))
+
+
+file_path5 = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_3_SForde/layouts/post/posted"
+os.mkdir(file_path5)
 
