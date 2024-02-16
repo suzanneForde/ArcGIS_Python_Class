@@ -23,10 +23,6 @@ import sys
 # "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\python.exe" Step_3.py ARGUMENT1 ARUGMENT2
 # Try executing the Step_2.bat file that I have provided
 #
-
-def
-
-
 # print("Argument 1 = " + str(sys.argv[1]))
 # print("Argument 2 = " + str(sys.argv[1]))
 # print("Argument 3 = " + str(sys.argv[1]))
@@ -38,3 +34,9 @@ def
 # Hint, you will need to edit the *.bat file to include the arguments.
 
 # Bonus Task 2 - Code your Scrabble score work from Coding Challenge 2 to use 3 sys.argv inputs
+
+def main(arg):
+    print("My argument" + str(arg))
+main(sys.argv[1])
+
+
