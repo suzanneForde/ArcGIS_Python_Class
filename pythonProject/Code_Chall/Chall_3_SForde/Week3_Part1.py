@@ -49,13 +49,13 @@ list = os.listdir(file_path0)
 print(list)
 
 for folder_name in list:
-    if folder_name == "includes":
+    if folder_name == "TEST_CODE":
         print('name dir EXISTS')
-else:
-    print('name dir NOT EXIST')
+    else:
+        print('name dir NOT EXIST')
 
-# Prints both if and else statements?
+# Prints dir not exist 4 times?
 
 
-# os.removedirs(file_path0)
+# os.removedirs(TEST_FOLDER)
 
