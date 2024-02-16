@@ -5,6 +5,6 @@
 
 import os
 
-os.system("mkdir")
+os.makedirs(" ")
 
 
