@@ -5,6 +5,7 @@
 
 import os
 
-os.makedirs(" ")
+
+os.makedirs("./draft_code/pending")
 
 
