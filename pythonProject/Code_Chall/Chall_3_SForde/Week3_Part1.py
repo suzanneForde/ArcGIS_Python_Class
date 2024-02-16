@@ -45,14 +45,14 @@ for subfolder_name in subfolder_names3:
 
 
 # Checking directory
-list = os.listdir(file_path0)
-print(list)
-
-for folder_name in list:
-    if folder_name == "TEST_CODE":
-        print('name dir EXISTS')
-    else:
-        print('name dir NOT EXIST')
+# list = os.listdir(file_path0)
+# print(list)
+#
+# for folder_name in list:
+#     if folder_name == "TEST_CODE":
+#         print('name dir EXISTS')
+#     else:
+#         print('name dir NOT EXIST')
 
 # Prints dir not exist 4 times?
 

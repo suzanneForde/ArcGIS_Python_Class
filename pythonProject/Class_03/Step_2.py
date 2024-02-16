@@ -21,11 +21,11 @@ import sys
 # Perhaps the most important function is sys.argv, which will allow you to add commands to the interpreter
 # from an external file. I use this when executing my Python code from a *.bat file, as you can write:
 # "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\python.exe" Step_3.py ARGUMENT1 ARUGMENT2
-# Try executing the Step_2.bat file that I have provided
-
-# print("Argument 1 = " + str(sys.argv[1]))
-# print("Argument 2 = " + str(sys.argv[1]))
-# print("Argument 3 = " + str(sys.argv[1]))
+# # Try executing the Step_2.bat file that I have provided
+#
+print("Argument 1 = " + str(sys.argv[1]))
+print("Argument 2 = " + str(sys.argv[1]))
+print("Argument 3 = " + str(sys.argv[1]))
 
 # Task - Using sys.argv write a small code block to read in 3 arguments to your Python file
 
