@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23e469c6-b1ad-4f66-9af3-d3e59666a3fb" name="Changes" comment="" />
+    <list default="true" id="23e469c6-b1ad-4f66-9af3-d3e59666a3fb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,28 +33,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Step_1.executor": "Run",
-    "Python.Step_2.executor": "Run",
-    "Python.Step_3.executor": "Run",
-    "Python.Step_4.executor": "Run",
-    "Python.Step_5.executor": "Run",
-    "Python.Step_6.executor": "Run",
-    "Python.Week2_Part1.executor": "Run",
-    "Python.Week2_Part2.executor": "Run",
-    "Python.Week2_Part3.executor": "Run",
-    "Python.Week2_Part4.executor": "Run",
-    "Python.Week2_Part5.executor": "Run",
-    "Python.Week3_Part1.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/NRS528_Py_GIS",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Step_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Step_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Step_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Step_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Step_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Step_6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Week2_Part1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Week2_Part2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Week2_Part3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Week2_Part4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Week2_Part5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Week3_Part1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/NRS528_Py_GIS&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.Step_2">
     <configuration name="Step_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
