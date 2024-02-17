@@ -8,20 +8,23 @@ import csv
 ## 1. Annual average for each year in the dataset.
 
 years = []
-sums_pyear = []
 
-with open("co2_ML.csv") as year_csv:
-    next(year_csv)
-    total = 0
-    for row in csv.reader(year_csv):
-        years.append(row[0])
-        sums_pyear.append(row[1])
-print(years)
-print(sums_pyear)
+for year in years:
+    with open('c02_ML.csv') as year_csv:
+        saved_header = next(year_csv)
+        file = open(r"throwaway\" + years + ".txt", "w")
+        file.write(saved_header)
+        for row in csv.reader(year_csv):
+            if years == row[0]:
+                file.write(row)
+        file.close()
 
-    #     total += float(row[1])
-    # print(format(total, 'f'))
-    # print(total)
+
+
+# year_total += float(row[2])
+#
+# print(years)
+
 
 ## 2. Minimum, maximum and average for the entire dataset.
 
