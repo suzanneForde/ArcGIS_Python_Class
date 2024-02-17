@@ -3,7 +3,6 @@
 # Part 2
 ###
 
-# I copied the .bat file from step 2 into my week3_part2 file because I was very confused on how to make one.
 # I combed through stackoverflow and Youtube but I couldn't figure it out.
 # I have no idea what I did here.
 

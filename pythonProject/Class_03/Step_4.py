@@ -16,18 +16,18 @@
 # We will query the file Step_4.csv, a file of population data per year per country:
 import csv
 
-# with open("Step_4.csv") as population_csv:
-#     csv_reader = csv.reader(population_csv, delimiter=',')
-#
-#     line_count = 0
-#
-#     for row in csv_reader:
-#         if line_count == 0:
-#             print("Column names are: " + str(row))
-#             line_count += 1
-#         line_count += 1
-#
-# print("Processed " + str(line_count) + " lines.")
+with open("Step_4.csv") as population_csv:
+    csv_reader = csv.reader(population_csv, delimiter=',')
+
+    line_count = 0
+
+    for row in csv_reader:
+        if line_count == 0:
+            print("Column names are: " + str(row))
+            line_count += 1
+        line_count += 1
+
+print("Processed " + str(line_count) + " lines.")
 
 # We can do some basic tasks, for example, let's sum the "Population" column
 #
