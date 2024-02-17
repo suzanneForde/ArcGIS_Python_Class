@@ -8,13 +8,27 @@
 
 import sys
 
-def function_one(name1):
-    print("Hello, my name is", name1)
-function_one (name1 = "Suzie")
+def function_one(spanish):
+    print("Hola,", spanish)
+function_one (spanish = "como estas.")
+def function2(name1):
+    print("Me llamo", name1)
+function2 (name1 = "Suzie.")
 
-print("A1: " + str(sys.argv[1]))
-print("A2: " + str(sys.argv[2]))
-print("A3: " + str(sys.argv[3]))
+
+
+
+
+# print("Argument 1 = " + str(sys.argv[1]))
+# print("Argument 2 = " + str(sys.argv[2]))
+# print("Argument 3 = " + str(sys.argv[3]))
+
+
+
+
+
+
+
 
 # # The following code produces a countdown that I found from the following Youtube video
 # # https://www.youtube.com/watch?v=-Wl6ZwlICSE
