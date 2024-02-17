@@ -35,8 +35,6 @@ import sys
 
 # Bonus Task 2 - Code your Scrabble score work from Coding Challenge 2 to use 3 sys.argv inputs
 
-def main(arg):
-    print("My argument" + str(arg))
-main(sys.argv[1])
+
 
 
