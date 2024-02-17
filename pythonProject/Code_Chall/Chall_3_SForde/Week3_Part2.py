@@ -3,8 +3,13 @@
 # Part 2
 ###
 
-import sys
-new_folder = r"C:/test_iguess"
+import pickle
+Turtle = open('IDK.dat', 'wb')
+data = 
+
+
+
+# sys.stderr.write('Pickle')
 
 
 
