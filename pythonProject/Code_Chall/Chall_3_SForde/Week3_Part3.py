@@ -5,16 +5,13 @@
 
 import csv
 
-
 with open("co2_ML.csv") as population_csv:
-    csv_reader = csv.reader(population_csv, delimiter=',')
+    next(population_csv) #skip first line
+    total = 0
+    for row in csv.reader(population_csv):
+        total += float(row[1])
+    print(format(total, 'f'))
+    print(total)
 
-    line_count = 0
 
-    for row in csv_reader:
-        if line_count == 0:
-            print("Column names are: " + str(row))
-            line_count += 1
-        line_count += 1
 
-print("Processed " + str(line_count) + " lines.")

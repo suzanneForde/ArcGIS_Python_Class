@@ -8,11 +8,11 @@
 
 import sys
 
+# file = open("testfile.bat", "w") # This did not work so I copied and pasted the .bat file from in-class example
 
 print("Argument 1 = " + str(sys.argv[1]))
 print("Argument 2 = " + str(sys.argv[2]))
 print("Argument 3 = " + str(sys.argv[3]))
-
 
 
 def function_one(spanish):
