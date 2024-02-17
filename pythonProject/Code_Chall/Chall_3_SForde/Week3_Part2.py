@@ -7,12 +7,18 @@
 # I combed through substack and Youtube but I couldn't figure it out.
 
 import sys
-print("Argument List:", str(sys.argv))
 
-print("Argument 1 = " + str(sys.argv[1]))
-print("Argument 2 = " + str(sys.argv[1]))
-print("Argument 3 = " + str(sys.argv[1]))
 
-def main(arg):
-    print("My argument" + str(arg))
-main(sys.argv[1])
+
+# # The following code produces a countdown that I found from the following Youtube video
+# # https://www.youtube.com/watch?v=-Wl6ZwlICSE
+# # I was using it to think through the assignment
+
+import time
+countdown = 5
+while countdown > 0:
+    print('Countdown = ', countdown)
+    countdown = countdown - 1
+    time.sleep(1)
+
+
