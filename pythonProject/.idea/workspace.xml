@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="23e469c6-b1ad-4f66-9af3-d3e59666a3fb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class_03/Step_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class_03/Step_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_3_SForde/Week3_Part2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Chall_3_SForde/Week3_Part2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_3_SForde/Week3_Part3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Chall_3_SForde/Week3_Part3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +59,7 @@
     "settings.editor.selected.configurable": "preferences.fileTypes"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Week3_Part2">
+  <component name="RunManager" selected="Python.Week3_Part3">
     <configuration name="Step_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -220,8 +218,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Week3_Part2" />
         <item itemvalue="Python.Week3_Part3" />
+        <item itemvalue="Python.Week3_Part2" />
         <item itemvalue="Python.Step_2" />
         <item itemvalue="Python.Week3_Part1" />
         <item itemvalue="Python.Week2_Part4" />
