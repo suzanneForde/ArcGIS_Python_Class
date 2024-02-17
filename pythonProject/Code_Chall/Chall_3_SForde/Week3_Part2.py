@@ -12,9 +12,9 @@ def function_one(name1):
     print("Hello, my name is", name1)
 function_one (name1 = "Suzie")
 
-def main(arg):
-    print("My argument: " + str(arg))
-main(sys.argv[1])
+print("A1: " + str(sys.argv[1]))
+print("A2: " + str(sys.argv[2]))
+print("A3: " + str(sys.argv[3]))
 
 # # The following code produces a countdown that I found from the following Youtube video
 # # https://www.youtube.com/watch?v=-Wl6ZwlICSE

@@ -44,18 +44,18 @@ for subfolder_name in subfolder_names3:
     os.makedirs(os.path.join(r"C:/TEST_FOLDER/layouts/post", subfolder_name))
 
 
-# Checking directory
-# list = os.listdir(file_path0)
-# print(list)
-#
-# for folder_name in list:
-#     if folder_name == "TEST_CODE":
-#         print('name dir EXISTS')
-#     else:
-#         print('name dir NOT EXIST')
+## Checking directory
+list = os.listdir(file_path0)
+print(list)
 
-# Prints dir not exist 4 times?
+for folder_name in list:
+    if folder_name == "TEST_CODE":
+        print('name dir EXISTS')
+    else:
+        print('name dir NOT EXIST')
+
+## Prints "dir not exist" 4 times?
 
 
-# os.removedirs(TEST_FOLDER)
+os.removedirs(TEST_FOLDER)
 
