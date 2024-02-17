@@ -3,18 +3,9 @@
 # Part 2
 ###
 
-import pickle
-Turtle = open('IDK.dat', 'wb')
-data = input('Enter data: ')
+import sys
 
-pickle.dump(data, Turtle)
-Turtle.close()
-print("Data recorded...")
+print("This is the name of the program:", sys.argv[0])
 
-# sys.stderr.write('Pickle')
-
-
-
-
-
+print("Argument List:", str(sys.argv))
 
