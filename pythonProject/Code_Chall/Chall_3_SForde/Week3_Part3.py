@@ -3,27 +3,22 @@
 # Part 3
 ###
 
-import csv
 
 ## 1. Annual average for each year in the dataset.
 
-years = []
+import csv
+import datetime
 
-for year in years:
-    with open('c02_ML.csv') as year_csv:
-        saved_header = next(year_csv)
-        file = open(r"throwaway\" + years + ".txt", "w")
-        file.write(saved_header)
-        for row in csv.reader(year_csv):
-            if years == row[0]:
-                file.write(row)
-        file.close()
+with open('co2_ML.csv') as csvfile:
+    reader = csv.DictReader(
+        csvfile, fieldnames=('date', 'stations', 'pcp'), delimiter=',', quotechar='|')
+    next(reader)
+    x = [row['date'] for row in reader]
 
+for date_str in x:
+    month, day, year = date_str.split('/')
+    print(month, day, year)
 
-
-# year_total += float(row[2])
-#
-# print(years)
 
 
 ## 2. Minimum, maximum and average for the entire dataset.
