@@ -3,10 +3,10 @@
 # Part 2
 ###
 
+# I copied the .bat file from step 2 into my week3_part2 file because I was very confused on how to make one.
+# I combed through substack and Youtube but I couldn't figure it out.
+
 import sys
-
-print("This is the name of the program:", sys.argv[0])
-
 print("Argument List:", str(sys.argv))
 
 print("Argument 1 = " + str(sys.argv[1]))
