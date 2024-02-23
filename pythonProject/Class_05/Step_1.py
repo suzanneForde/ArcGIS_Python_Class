@@ -9,28 +9,28 @@
 
 import arcpy
 # Set your workspace to the directory where you are storing your files
-arcpy.env.workspace = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Class_05"
+# arcpy.env.workspace = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Class_05"
+#
+# in_Table = r"Step_1_Lionfish.csv"
+# x_coords = "X"
+# y_coords = "Y"
+# z_coords = ""
+# out_Layer = "lionfish"
+# saved_Layer = r"Step_1_Lionfish_Output.shp"
+#
+# # Set the spatial reference
+# spRef = arcpy.SpatialReference(4326)  # 4326 == WGS 1984
+#
+# lyr = arcpy.MakeXYEventLayer_management(in_Table, x_coords, y_coords, out_Layer, spRef, z_coords)
 
-in_Table = r"Step_1_Lionfish.csv"
-x_coords = "X"
-y_coords = "Y"
-z_coords = ""
-out_Layer = "lionfish"
-saved_Layer = r"Step_1_Lionfish_Output.shp"
-
-# Set the spatial reference
-spRef = arcpy.SpatialReference(4326)  # 4326 == WGS 1984
-
-lyr = arcpy.MakeXYEventLayer_management(in_Table, x_coords, y_coords, out_Layer, spRef, z_coords)
-
-# Print the total rows
-print(arcpy.GetCount_management(out_Layer))
-
-# Save to a layer file
-arcpy.CopyFeatures_management(lyr, saved_Layer)
-
-if arcpy.Exists(saved_Layer):
-    print("Created file successfully!")
+# # Print the total rows
+# print(arcpy.GetCount_management(out_Layer))
+#
+# # Save to a layer file
+# arcpy.CopyFeatures_management(lyr, saved_Layer)
+#
+# if arcpy.Exists(saved_Layer):
+#     print("Created file successfully!")
 
 
 # Tasks - Using the file provided "Step_1_Deep_Coral.csv", undertake the following: Hint: spatial
@@ -38,10 +38,31 @@ if arcpy.Exists(saved_Layer):
 
 ##### 1. Convert the file to a shapefile.
 
+import arcpy
+arcpy.env.workspace = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Class_05"
+
+in_Table = r"Step_1_Deep_Coral.csv"
+x_coords = "decimalLongitude"
+y_coords = "decimalLatitude"
+z_coords = ""
+out_Layer = "deepcoral"
+saved_Layer = r"Step_1_Deep_Coral_Output.shp"
+
+spRef = arcpy.SpatialReference(4326)  # 4326 == WGS 1984
+
+lyr = arcpy.MakeXYEventLayer_management(in_Table, x_coords, y_coords, out_Layer, spRef, z_coords)
+
 ##### 2. Print the count of the number of records in the file. (Hint: see above!)
 # https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/get-count.htm
 
+print(arcpy.GetCount_management(out_Layer))
+
 ##### 3. Check the correct coordinate system has been applied (Hint: see last week!)
+
+arcpy.CopyFeatures_management(lyr, saved_Layer)
+
+if arcpy.Exists(saved_Layer):
+    print("Created file successfully!")
 
 ##### 4. Visualize the file in ArcPro by dragging it into the program.
 
