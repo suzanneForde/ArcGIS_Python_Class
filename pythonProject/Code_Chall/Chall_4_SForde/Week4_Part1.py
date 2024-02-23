@@ -18,7 +18,8 @@ import arcpy
 arcpy.env.workspace = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_4_SForde\workspace_04"
 arcpy.env.overwriteOutput = True
 
-
+target_features = "RIPTA_Bus_Stops"
+join_features = "FACILITY_Schools_pk12_2023.shp"
 
 
 
