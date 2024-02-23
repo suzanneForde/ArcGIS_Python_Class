@@ -5,20 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23e469c6-b1ad-4f66-9af3-d3e59666a3fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Class_05/Step_0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_05/Step_0_Answers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_05/Step_0_Commands.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_05/Step_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_05/Step_1_Answers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_05/Step_1_Deep_Coral.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_05/Step_1_Lionfish.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_05/Step_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_05/Step_2_Deep_Coral_Data.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_05/Step_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_05/Step_3_Answers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_05/Step_3_Cepphus_grylle.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_05/__MACOSX/._Step_0_Answers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/Week4_Part1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/Week4_Part1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

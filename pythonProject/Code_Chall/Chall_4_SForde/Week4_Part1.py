@@ -13,31 +13,6 @@
 # Comment your code well.
 # Ensure that the code will run on my machine with only a single change to a single variable (i.e. a base folder location).
 
-#
-# import arcpy
-#
-# arcpy.env.workspace = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_4_SForde\workspace_04"
-# arcpy.env.overwriteOutput = True
-#
-# target_features = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_4_SForde\workspace_04\RIPTA_Bus_Stops.shp" # input feature class with join attributes
-# join_features = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_4_SForde\workspace_04\FACILITY_Schools_pk12_2023.shp" # input feature class with features to join
-#
-# output_feature_class = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_4_SForde\workspace_04\bus_school_join.shp" # output feature class where the joined data will be saved
-#
-# spatial_relationship = "INTERSECT" # specifies spatial relationship for join
-#
-# join_type = "JOIN_ONE_TO_ONE" # specifies type of join to perform
-#
-# field_mapping = None # specifies which field will be in output
-#
-# try:
-#     arcpy.SpatialJoin_analysis(target_features, join_features, output_feature_class,
-#                                join_type=join_type, join_operation=spatial_relationship,
-#                                field_mapping=field_mapping)
-#     print("Spatial Join completed successfully")
-# except arcpy.ExecuteError:
-#     print(arcpy.GetMessages(2)) #returns GIS messages
-
 
 import arcpy
 import os
@@ -52,17 +27,17 @@ join_feature = os.path.join(workspace, r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\py
 output_feature = os.path.join(workspace, r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_4_SForde\workspace_04\bus_school_join.shp")
 
 try:
-    # Check if the output feature class already exists, delete if it does
+    # check if the output feature class already exists, delete if it does
     if arcpy.Exists(output_feature):
         arcpy.Delete_management(output_feature)
 
-    # Use the Intersect tool to overlay the input feature classes
+    # overlay the input feature classes
     arcpy.Intersect_analysis([target_feature, join_feature], output_feature)
 
     print("Intersect analysis completed successfully.")
 
 except arcpy.ExecuteError:
-    print(arcpy.GetMessages(2))
+    print(arcpy.GetMessages(2)) #returns GIS messages
 
 except Exception as e:
     print(e)
