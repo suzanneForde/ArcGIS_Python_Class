@@ -9,9 +9,11 @@
 
 import arcpy
 # set workspace environment
-arcpy.env.workspace = r"C:\Data\Course_ArcGIS_Python\Classes\05_Scripts\DataFolder_Step_2_Deep_Coral_Data"
-# Set coordinate system of the output fishnet
+arcpy.env.workspace = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Class_05\Deep_coral_data"
+# Set coordinate system of the output fishnet (lat/long = degrees)
 arcpy.env.outputCoordinateSystem = arcpy.SpatialReference(4326)
+
+arcpy.env.overwriteOutput = True
 
 outFeatureClass = "Step_2_Fishnet.shp"  # Name of output fishnet
 
@@ -31,10 +33,10 @@ arcpy.CreateFishnet_management(outFeatureClass, originCoordinate, yAxisCoordinat
                                cellSizeWidth, cellSizeHeight, numRows, numColumns,
                                oppositeCorner, labels, templateExtent, geometryType)
 
-# Part b - Count the amount of points in each fishnet cell
-
-# To do this we use a tool called SpatialJoin, relatively simple to set up
-
+# # Part b - Count the amount of points in each fishnet cell
+#
+# # To do this we use a tool called SpatialJoin, relatively simple to set up
+#
 target_features="Step_2_Fishnet.shp"
 join_features="Step_2_Deep_Coral_Data.shp"
 out_feature_class="Step_2_Deep_Coral_HeatMap.shp"
@@ -48,8 +50,8 @@ distance_field_name=""
 arcpy.SpatialJoin_analysis(target_features, join_features, out_feature_class,
                            join_operation, join_type, field_mapping, match_option,
                            search_radius, distance_field_name)
-
-# Part c - Visualize the file in ArcGIS Pro and change the symbology to a heatmap esq style.
-
-
-# FOR OUR TASK HERE, HEAD TO STEP_3.PY
+#
+# # Part c - Visualize the file in ArcGIS Pro and change the symbology to a heatmap esq style.
+#
+#
+# # FOR OUR TASK HERE, HEAD TO STEP_3.PY
