@@ -30,15 +30,15 @@ import arcpy
 
 # Tasks - Using the files provided in Step_3_data.zip, under take the following:
 ##### 1. Execute the Buffer tool on Places_Been.shp, with a buffer of 100 meters, you will probably need to use method = GEODESIC
-in_features = r"C:\Data\Course_ArcGIS_Python\Classes\04_arcpy\DataFolder_Step_3_data\Places_Been.shp"
-out_feature_class = r"C:\Data\Course_ArcGIS_Python\Classes\04_arcpy\DataFolder_Step_3_data\Places_Been_Output.shp"
-buffer_distance_or_field = "100 meter"
-line_side = "#"
-line_end_type = "#"
-dissolve_option = "#"
-dissolve_field = "#"
-method = "GEODESIC"
-arcpy.Buffer_analysis(in_features, out_feature_class, buffer_distance_or_field, line_side, line_end_type, dissolve_option, dissolve_field, method)
+# in_features = r"C:\Data\Course_ArcGIS_Python\Classes\04_arcpy\DataFolder_Step_3_data\Places_Been.shp"
+# out_feature_class = r"C:\Data\Course_ArcGIS_Python\Classes\04_arcpy\DataFolder_Step_3_data\Places_Been_Output.shp"
+# buffer_distance_or_field = "100 meter"
+# line_side = "#"
+# line_end_type = "#"
+# dissolve_option = "#"
+# dissolve_field = "#"
+# method = "GEODESIC"
+# arcpy.Buffer_analysis(in_features, out_feature_class, buffer_distance_or_field, line_side, line_end_type, dissolve_option, dissolve_field, method)
 
 ##### 2. Execute the Buffer tool on URI_Campus_Roads_OSM.shp twice, first with a buffer of 100 meters (everything else as default).
 ##### On the second run, set line_side to "RIGHT", and line_end_type to "FLAT". Compare the differences in the GIS.
