@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20160906</pubdate>
+                <title>TRANS_RIPTA_Bus_Stops</title>
+                <geoform>vector digital data</geoform>
+                <pubinfo>
+                    <pubplace/>
+                    <publish>RIPTA</publish>
+                </pubinfo>
+                <othercit>Suggested bibliographic reference: RIGIS, 2016. RIPTA Bus Stops (September 2016); RIPTAstops0916. Rhode Island Geographic Information System (RIGIS) Data Distribution System, URL: http://www.rigis.org, Environmental Data Center, University of Rhode Island, Kingston, Rhode Island (last date accessed: 9 September 2016).</othercit>
+                <onlink>http://www.rigis.org</onlink>
+                <onlink>http://www.ripta.com</onlink>
+                <onlink>http://data.rigis.org/trans/RIPTAstops0916.zip</onlink>
+                <lworkcit>
+                    <citeinfo>
+                        <pubdate>19930101</pubdate>
+                        <title>Rhode Island Geographic Information System (RIGIS) Data Distribution System</title>
+                    </citeinfo>
+                </lworkcit>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>These data are intended for use in transportation and&#13;
+transit system planning. It is not the intention when using this data set to&#13;
+determine the exact routing, timing or scheduling of bus trips. Transit system&#13;
+routes and schedules including frequency of service change periodically. Users&#13;
+of this data should check with RIPTA for the most up to data information and&#13;
+not rely on this data for final determinations. Please visit the RIPTA website&#13;
+for official bus stop and bus route information http://www.ripta.com.</abstract>
+            <purpose>RIPTA statewide bus stops for public transit service with individual route and stop information effective September 2016.</purpose>
+            <supplinf>It is not the intention when using this data set to determine the exact routing, timing or scheduling of bus trips. Transit system routes and schedules including frequency of service change periodically. Users of this data should check with RIPTA for the most up to data information and not rely on this data for final determinations. Please visit the RIPTA website for official bus stop and bus route information http://www.ripta.com.</supplinf>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <rngdates>
+                    <begdate>20160903</begdate>
+                    <enddate>20170113</enddate>
+                </rngdates>
+            </timeinfo>
+            <current>Unknown</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>As needed</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-71.833439</westbc>
+                <eastbc>-71.24105</eastbc>
+                <northbc>42.016922</northbc>
+                <southbc>41.372319</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>ISO 19115 Topic Category</themekt>
+                <themekey>transportation</themekey>
+            </theme>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>park and ride</themekey>
+                <themekey>RIPTA</themekey>
+                <themekey>Public Transit</themekey>
+                <themekey>Transit</themekey>
+                <themekey>Bus stops</themekey>
+                <themekey>Ground Transportation</themekey>
+                <themekey>Transportation</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>Rhode Island</placekey>
+                <placekey>New England</placekey>
+                <placekey>Northeast</placekey>
+                <placekey>USA</placekey>
+            </place>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>These data are shared under the RIGIS license agreement,
+which can be viewed below: This dataset is provided 'as is.’ The producer(s) of
+this dataset, contributors to this dataset, the Rhode Island Geographic
+Information System (RIGIS) consortium, the State of Rhode Island, and the
+University of Rhode Island do not make any warranties of any kind for this
+dataset, and are not liable for any loss or damage however and whenever caused
+by any use of this dataset. Please acknowledge both RIGIS and the primary
+producer(s) of this dataset in any derived products.  Versions of the
+RIGIS logo suitable for both printed and web-based products are available at
+http://www.rigis.org/logos.Additional access and use constraints imposed by the
+data originator: RIPTA bus stops, routes, and route number assignments may
+change with conditions and administrative or management decisions made after
+the publication of these data. Users are advised to check with RIPTA for
+verification.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>RIPTA</cntorg>
+                    <cntper>Sheryl Cripps</cntper>
+                </cntorgp>
+                <cntpos>Data Analyst</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>705 Elmwood Avenue</address>
+                    <city>Providence</city>
+                    <state>RI</state>
+                    <postal>02907</postal>
+                </cntaddr>
+                <cntvoice>401-784-9500 x 221</cntvoice>
+                <cntfax>401-784-9523</cntfax>
+                <cntemail>scripps@ripta.com</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <datacred>URI EDC, RIGIS; Rhode Island Public Transit Authority. Icon Credit: Sergey Krivoy via The Noun Project</datacred>
+        <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.4.1.5686</native>
+    </idinfo>
+    <dataqual>
+        <logic>Basic complete ESRI point feature shape file.</logic>
+        <complete>Complete to the date of publication as verified by inspection by RIPTA.</complete>
+        <posacc>
+            <horizpa>
+                <horizpar>(none provided)</horizpar>
+            </horizpa>
+        </posacc>
+        <lineage>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>RIDOT Roads 2010</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srccitea>RIDOT Roads 2010</srccitea>
+                <srccontr>Used as spatial base for roads over which bus stops are located.</srccontr>
+            </srcinfo>
+            <procstep>
+                <procdesc>Bus stop locations were manually positioned over digital road centerline features in the RIGIS RIDOT roads data set with ESRI ArcGIS software or located mapping grade GPS techniques.</procdesc>
+                <procdate>20160205</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>RIPTA</cntorg>
+                            <cntper>Sheryl Cripps</cntper>
+                        </cntorgp>
+                        <cntpos>Data Analyst</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>705 Elmwood Avenue</address>
+                            <city>Providence</city>
+                            <state>RI</state>
+                            <postal>02907</postal>
+                        </cntaddr>
+                        <cntvoice>401-784-9500 x 221</cntvoice>
+                        <cntfax>401-784-9523</cntfax>
+                        <cntemail>scripps@ripta.com</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Data contributed to RIGIS by the Rhode Island Public Transit Authority. Metadata were adapted, minor updates made to content, RIGIS distribution information added.</procdesc>
+                <procdate>20160909</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>University of Rhode Island Environmental Data Center</cntorg>
+                            <cntper>Erica Tefft</cntper>
+                        </cntorgp>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>1 Greenhouse Road</address>
+                            <city>Kingston</city>
+                            <state>RI</state>
+                            <postal>02881</postal>
+                        </cntaddr>
+                        <cntvoice>401-874-5054</cntvoice>
+                        <cntemail>erica@edc.uri.edu</cntemail>
+                        <cntinst>email preferred</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>Entity point</sdtstype>
+                <ptvctcnt>5014</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>TRANS_RIPTA_Bus_Stops</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CURB</attrlabl>
+                <attrdef>Whether a curb is present at the stop location.</attrdef>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>YES</edomv>
+                        						
+                        <edomvd>Yes, curb present.</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>NO</edomv>
+                        						
+                        <edomvd>No curb present.</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHELTER</attrlabl>
+                <attrdef>Shelter Availability and/or Ownership</attrdef>
+                <attrdomv>
+                    					
+                    <udom>free text</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SIGN_LOC</attrlabl>
+                <attrdef>Location of the RIPTA bus stop sign.</attrdef>
+                <attrdomv>
+                    					
+                    <udom>free text</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>PROP_TYPE</attrlabl>
+                <attrdef>Type of property near which the bus stop is located.</attrdef>
+                <attrdomv>
+                    					
+                    <udom>free text</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>STREET</attrlabl>
+                <attrdef>Name of street where stop is located.</attrdef>
+                <attrdomv>
+                    					
+                    <udom>free text</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LONGITUD</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>ACCESSIBLE</attrlabl>
+                <attrdef>Handicaped accesibility of bus stop.</attrdef>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>YES</edomv>
+                        						
+                        <edomvd>Yes, handicaped accessible.</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>NO</edomv>
+                        						
+                        <edomvd>Not handicaped accessible.</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>RIPTA_ID</attrlabl>
+                <attrdef>Unique RIPTA identifier for stop.</attrdef>
+                <attrdefs>RIPTA</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>NO_PARK</attrlabl>
+                <attrdef>No parkign sign present at bus stop location.</attrdef>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>NO</edomv>
+                        						
+                        <edomvd>No sign present.</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>YES</edomv>
+                        						
+                        <edomvd>Yes, sign present.</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DIRECTION</attrlabl>
+                <attrdef>Indicates whether stop is served during inbound or outbound route.</attrdef>
+                <attrdomv>
+                    					
+                    <udom>free text</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>INFOPOST</attrlabl>
+                <attrdef>Information posted at bus stop.</attrdef>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>NO</edomv>
+                        						
+                        <edomvd>No information posted.</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>YES</edomv>
+                        						
+                        <edomvd>Yes, information posted.</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LANDMARK</attrlabl>
+                <attrdef>Landmark near which bus stop is located, where available/applicable.</attrdef>
+                <attrdomv>
+                    					
+                    <udom>free text</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>COMMENTS</attrlabl>
+                <attrdef>Comments that will help with stop ID or other important information about stop location.</attrdef>
+                <attrdomv>
+                    					
+                    <udom>free text</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SIGN_TYPE</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SIGN_ATTAC</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>BUS_CURB</attrlabl>
+                <attrdef>Can bus pull up to curb.</attrdef>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>YES</edomv>
+                        						
+                        <edomvd>Yes, bus can pull to curb.</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>NO</edomv>
+                        						
+                        <edomvd>No bus cannot pull to curb.</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ROUTE</attrlabl>
+                <attrdef>RIPTA Route Number</attrdef>
+                <attrdefs>RIPTA</attrdefs>
+                <attrdomv>
+                    					
+                    <codesetd>
+                        						
+                        <codesetn>RIPTA Route Numbers</codesetn>
+                        						
+                        <codesets>http://www.ripta.com</codesets>
+                        					
+                    </codesetd>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LIGHTING</attrlabl>
+                <attrdef>Lighting available at bus stop.</attrdef>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>YES</edomv>
+                        						
+                        <edomvd>Yes, lighting present.</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>NO</edomv>
+                        						
+                        <edomvd>No lighting present.</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Coordinates defining the features.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SEQ</attrlabl>
+                <attrdef>Sequence of stop within route.</attrdef>
+                <attrdomv>
+                    					
+                    <udom>free text</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LATITUDE</attrlabl>
+                <attrdef>Latitude of bus stop.</attrdef>
+                <attrdefs>RIPTA</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>TOWN</attrlabl>
+                <attrdef>Name of municipality where stop is located.</attrdef>
+                <attrdomv>
+                    					
+                    <udom>free text</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SIDEWALK</attrlabl>
+                <attrdef>Whether a sidewalk is available at the stop location.</attrdef>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>NO</edomv>
+                        						
+                        <edomvd>No sidewalk present.</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>YES</edomv>
+                        						
+                        <edomvd>Yes, sidewalk present.</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>XST_ADD</attrlabl>
+                <attrdef>Address of the cross street at which the stop is located.</attrdef>
+                <attrdomv>
+                    					
+                    <udom>free text</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ROUTES_SER</attrlabl>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>University of Rhode Island Environmental Data Center</cntorg>
+                    <cntper>Erica Tefft</cntper>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>1 Greenhouse Road</address>
+                    <city>Kingston</city>
+                    <state>RI</state>
+                    <postal>02881</postal>
+                </cntaddr>
+                <cntvoice>401-874-5054</cntvoice>
+                <cntemail>erica@edc.uri.edu</cntemail>
+                <cntinst>email preferred</cntinst>
+            </cntinfo>
+        </distrib>
+        <distliab>This dataset is provided 'as is.' The producer(s) of this dataset, contributors to this dataset, the Rhode Island Geographic Information System (RIGIS) consortium, the State of Rhode Island, and the University of Rhode Island do not make any warranties of any kind for this dataset, and are not liable for any loss or damage however and whenever caused by any use of this dataset.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>Esri shapefile</formname>
+                    <filedec>ZIP</filedec>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>http://www.rigis.org</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>No fee for downloading directly from the RIGIS Data Distribution System located at http://www.rigis.org.</fees>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20161115</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>RIPTA</cntorg>
+                    <cntper>Sheryl Cripps</cntper>
+                </cntorgp>
+                <cntpos>Data Analyst</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>705 Elmwood Avenue</address>
+                    <city>Providence</city>
+                    <state>RI</state>
+                    <postal>02907</postal>
+                </cntaddr>
+                <cntvoice>401-784-9500 x 221</cntvoice>
+                <cntfax>401-784-9523</cntfax>
+                <cntemail>scripps@ripta.com</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
