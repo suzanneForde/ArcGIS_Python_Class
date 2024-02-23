@@ -4,47 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23e469c6-b1ad-4f66-9af3-d3e59666a3fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/0320001450.J2w" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/0320001450.JP2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/0320001450.JP2.aux.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/0320001450.prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/2014USGS.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/2014USGS.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/2014USGS.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/ArcMap_Document_URI.mxd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/Places_Been.cpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/Places_Been.dbf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/Places_Been.prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/Places_Been.sbn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/Places_Been.sbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/Places_Been.shp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/Places_Been.shp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/Places_Been.shx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/URI_Campus_Buildings_OSM.cpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/URI_Campus_Buildings_OSM.dbf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/URI_Campus_Buildings_OSM.prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/URI_Campus_Buildings_OSM.sbn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/URI_Campus_Buildings_OSM.sbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/URI_Campus_Buildings_OSM.shp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/URI_Campus_Buildings_OSM.shx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/URI_Campus_Roads_OSM.cpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/URI_Campus_Roads_OSM.dbf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/URI_Campus_Roads_OSM.prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/URI_Campus_Roads_OSM.sbn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/URI_Campus_Roads_OSM.sbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/URI_Campus_Roads_OSM.shp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/URI_Campus_Roads_OSM.shx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_4_Folder/0320001450.J2w" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_4_Folder/0320001450.JP2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_4_Folder/0320001450.JP2.aux.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_4_Folder/0320001450.prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_4_Folder/2014USGS.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_4_Folder/2014USGS.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_04/Step_4_Folder/2014USGS.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class_04/Step_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class_04/Step_2.py" afterDir="false" />
-    </list>
+    <list default="true" id="23e469c6-b1ad-4f66-9af3-d3e59666a3fb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
