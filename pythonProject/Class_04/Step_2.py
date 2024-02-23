@@ -33,7 +33,7 @@ print("Extent:\n  XMin: {0},\n XMax: {1},\n YMin: {2},\n YMax: {3}".format(desc.
 # 4. Get cell size of X and Y (hint: https://community.esri.com/thread/20092)
 # 5. Get number of bands (hint: http://pro.arcgis.com/en/pro-app/arcpy/functions/raster-dataset-properties.htm)
 
-desc_image = arcpy.Describe(r"C:\Data\Course_ArcGIS_Python\Classes\04_arcpy\DataFolder_Step_3_data\0320001450.JP2")
+desc_image = arcpy.Describe(r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Class_04\Step_3_Folder\0320001450.JP2")
 # 1. Dataset Type
 print("Dataset Type: %s" % desc_image.datasetType)
 # 2. Spatial Reference Name and Type.
