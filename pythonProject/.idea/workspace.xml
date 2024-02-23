@@ -5,7 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23e469c6-b1ad-4f66-9af3-d3e59666a3fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/0320001450.J2w" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/0320001450.JP2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/0320001450.JP2.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/0320001450.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/2014USGS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/2014USGS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/2014USGS.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/ArcMap_Document_URI.mxd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/Places_Been.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/Places_Been.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/Places_Been.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/Places_Been.sbn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/Places_Been.sbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/Places_Been.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/Places_Been.shp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/Places_Been.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/URI_Campus_Buildings_OSM.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/URI_Campus_Buildings_OSM.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/URI_Campus_Buildings_OSM.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/URI_Campus_Buildings_OSM.sbn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/URI_Campus_Buildings_OSM.sbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/URI_Campus_Buildings_OSM.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/URI_Campus_Buildings_OSM.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/URI_Campus_Roads_OSM.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/URI_Campus_Roads_OSM.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/URI_Campus_Roads_OSM.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/URI_Campus_Roads_OSM.sbn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/URI_Campus_Roads_OSM.sbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/URI_Campus_Roads_OSM.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_3_Folder/URI_Campus_Roads_OSM.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_4_Folder/0320001450.J2w" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_4_Folder/0320001450.JP2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_4_Folder/0320001450.JP2.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_4_Folder/0320001450.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_4_Folder/2014USGS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_4_Folder/2014USGS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_04/Step_4_Folder/2014USGS.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class_04/Step_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class_04/Step_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +82,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.Step_0_Answers.executor": "Run",
     "Python.Step_1.executor": "Run",
+    "Python.Step_2 (1).executor": "Run",
     "Python.Step_2.executor": "Run",
     "Python.Step_3.executor": "Run",
     "Python.Step_4.executor": "Run",
@@ -66,7 +105,7 @@
     "settings.editor.selected.configurable": "preferences.fileTypes"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Step_0_Answers">
+  <component name="RunManager" selected="Python.Step_2 (1)">
     <configuration name="Step_0_Answers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -89,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Step_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Step_2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,11 +137,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Class_03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Class_04" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_03/Step_2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_04/Step_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -225,11 +264,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Step_2 (1)" />
         <item itemvalue="Python.Step_0_Answers" />
         <item itemvalue="Python.Week2_Part1" />
         <item itemvalue="Python.Week3_Part3" />
         <item itemvalue="Python.Week3_Part2" />
-        <item itemvalue="Python.Step_2" />
       </list>
     </recent_temporary>
   </component>

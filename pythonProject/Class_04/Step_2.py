@@ -9,7 +9,7 @@
 
 #  Below is example code that interrogates a shapefile and returns the type of data stored within it:
 import arcpy
-desc = arcpy.Describe(r"C:\Data\Course_ArcGIS_Python\Classes\04_arcpy\DataFolder_Step_3_data\Places_Been.shp")
+desc = arcpy.Describe(r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Class_04\Step_3_Folder\Places_Been.shp")
 
 # Describe returns a "Describe" object, which basically has multiple properties that we can query.
 print(desc) # Returns meaningless information - geoprocessing describe data object...
@@ -17,12 +17,12 @@ print(desc.shapeType) # Providing you supply the same shapefile as me, you will 
 # see this link: http://pro.arcgis.com/en/pro-app/arcpy/functions/featureclass-properties.htm
 
 print(desc.extent)
-# Print a more accessible spatialReference output (this uses string substitution notation):
+# # Print a more accessible spatialReference output (this uses string substitution notation):
 print("Extent:\n  XMin: {0},\n XMax: {1},\n YMin: {2},\n YMax: {3}".format(desc.extent.XMin, desc.extent.XMax, desc.extent.YMin, desc.extent.YMax))
-
-print(desc.spatialReference) # Returns meaningless information - geoprocessing spatial reference object, we need to go deeper
-print(desc.spatialReference.name)
-print(desc.spatialReference.type)
+#
+# print(desc.spatialReference) # Returns meaningless information - geoprocessing spatial reference object, we need to go deeper
+# print(desc.spatialReference.name)
+# print(desc.spatialReference.type)
 
 # Task 1 - Using the raster dataset supplied - 0320001450.JP2, extract the following information (Hint you may
 # need to use r"file path" due to the \ in the filename), using substitution notation to format this nicely e.g.
