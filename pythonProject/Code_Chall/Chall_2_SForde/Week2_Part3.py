@@ -8,6 +8,9 @@ s = ('hi dee hi how are you mr dee')
 x = s.split()
 print(x)
 
+for item in x:
+    print(str(item) + " = " + str(x.count(item)))
+
 hi = x.count('hi')
 print(hi)
 
