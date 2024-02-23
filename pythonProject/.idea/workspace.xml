@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23e469c6-b1ad-4f66-9af3-d3e59666a3fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/FACILITY_Schools_pk12_2023.cpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/FACILITY_Schools_pk12_2023.dbf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/FACILITY_Schools_pk12_2023.prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/FACILITY_Schools_pk12_2023.shp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/FACILITY_Schools_pk12_2023.shp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/FACILITY_Schools_pk12_2023.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_05/Step_0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_05/Step_0_Answers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_05/Step_0_Commands.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_05/Step_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_05/Step_1_Answers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_05/Step_1_Deep_Coral.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_05/Step_1_Lionfish.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_05/Step_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_05/Step_2_Deep_Coral_Data.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_05/Step_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_05/Step_3_Answers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_05/Step_3_Cepphus_grylle.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_05/__MACOSX/._Step_0_Answers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/Week4_Part1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/Week4_Part1.py" afterDir="false" />
     </list>
@@ -46,36 +53,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.Step_0_Answers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_4 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week2_Part1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week2_Part2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week2_Part3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week2_Part4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week2_Part5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week3_Part1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week3_Part2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week3_Part3.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/NRS528_Py_GIS&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.Step_0_Answers.executor": "Run",
+    "Python.Step_1.executor": "Run",
+    "Python.Step_2 (1).executor": "Run",
+    "Python.Step_2.executor": "Run",
+    "Python.Step_3.executor": "Run",
+    "Python.Step_4 (1).executor": "Run",
+    "Python.Step_4.executor": "Run",
+    "Python.Step_5.executor": "Run",
+    "Python.Step_6.executor": "Run",
+    "Python.Week2_Part1.executor": "Run",
+    "Python.Week2_Part2.executor": "Run",
+    "Python.Week2_Part3.executor": "Run",
+    "Python.Week2_Part4.executor": "Run",
+    "Python.Week2_Part5.executor": "Run",
+    "Python.Week3_Part1.executor": "Run",
+    "Python.Week3_Part2.executor": "Run",
+    "Python.Week3_Part3.executor": "Run",
+    "Python.Week4_Part1.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/NRS528_Py_GIS",
+    "settings.editor.selected.configurable": "preferences.fileTypes"
   }
-}</component>
-  <component name="RunManager" selected="Python.Step_4 (1)">
+}]]></component>
+  <component name="RunManager" selected="Python.Week4_Part1">
     <configuration name="Step_0_Answers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -187,28 +195,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Week2_Part1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code_Chall/Chall_2_SForde" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code_Chall/Chall_2_SForde/Week2_Part1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Week2_Part2" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -232,13 +218,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Week4_Part1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code_Chall/Chall_4_SForde" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/Week4_Part1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Week4_Part1" />
         <item itemvalue="Python.Step_4 (1)" />
         <item itemvalue="Python.Step_3" />
         <item itemvalue="Python.Step_2 (1)" />
         <item itemvalue="Python.Step_0_Answers" />
-        <item itemvalue="Python.Week2_Part1" />
       </list>
     </recent_temporary>
   </component>
