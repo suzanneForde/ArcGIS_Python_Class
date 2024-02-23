@@ -9,7 +9,7 @@
 
 import arcpy
 # Set your workspace to the directory where you are storing your files
-arcpy.env.workspace = r"C:\Data\Course_ArcGIS_Python\Classes\05_Scripts"
+arcpy.env.workspace = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Class_05"
 
 in_Table = r"Step_1_Lionfish.csv"
 x_coords = "X"
