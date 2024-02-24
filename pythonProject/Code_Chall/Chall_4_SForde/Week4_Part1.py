@@ -17,27 +17,29 @@
 import arcpy
 import os
 
-workspace = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_4_SForde\workspace_04"
-arcpy.env.workspace = workspace
+script_dir = os.path.dirname(os.path.abspath(__file__))
 
-target_feature = os.path.join(workspace, r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_4_SForde\workspace_04\RIPTA_Bus_Stops.shp")
-join_feature = os.path.join(workspace, r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_4_SForde\workspace_04\FACILITY_Schools_pk12_2023.shp")
+workspace = os.path.join(script_dir, "workspace_04")
 
-# path to the output feature class
-output_feature = os.path.join(workspace, r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_4_SForde\workspace_04\bus_school_join.shp")
+target_feature = os.path.join(workspace, "RIPTA_Bus_Stops.shp")
+join_feature = os.path.join(workspace, "RIDOT_Roads__2016_.shp")
 
+# output feature class
+output_feature = os.path.join(workspace, "bus_roads_join.shp")
+
+# check if  output feature class already exists, delete if it does, this allows us to run the code more than once
 try:
-    # check if the output feature class already exists, delete if it does
     if arcpy.Exists(output_feature):
         arcpy.Delete_management(output_feature)
 
-    # overlay the input feature classes
+# overlay the input feature classes
     arcpy.Intersect_analysis([target_feature, join_feature], output_feature)
 
     print("Intersect analysis completed successfully.")
 
+# return GIS messages
 except arcpy.ExecuteError:
-    print(arcpy.GetMessages(2)) #returns GIS messages
+    print(arcpy.GetMessages(2))
 
 except Exception as e:
     print(e)
