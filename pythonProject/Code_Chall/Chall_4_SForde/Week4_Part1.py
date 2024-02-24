@@ -17,7 +17,7 @@
 import arcpy
 import os
 
-# base folder path
+# base folder pathing
 script_dir = os.path.dirname(os.path.abspath(__file__))
 workspace = os.path.join(script_dir, "workspace_04")
 
