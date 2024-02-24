@@ -5,29 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23e469c6-b1ad-4f66-9af3-d3e59666a3fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/RIDOT_Roads_(2016).xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/RIDOT_Roads__2016_.cpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/RIDOT_Roads__2016_.dbf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/RIDOT_Roads__2016_.prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/RIDOT_Roads__2016_.shp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/RIDOT_Roads__2016_.shx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/Week4_Part1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/Week4_Part1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/FACILITY_Schools_pk12_2023.cpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/FACILITY_Schools_pk12_2023.dbf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/FACILITY_Schools_pk12_2023.prj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/FACILITY_Schools_pk12_2023.shp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/FACILITY_Schools_pk12_2023.shp.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/FACILITY_Schools_pk12_2023.shx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/RIPTA_Bus_Stops.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/bus_school_join.cpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/bus_school_join.dbf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/bus_school_join.prj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/bus_school_join.sbn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/bus_school_join.sbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/bus_school_join.shp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/bus_school_join.shp.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/bus_school_join.shx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

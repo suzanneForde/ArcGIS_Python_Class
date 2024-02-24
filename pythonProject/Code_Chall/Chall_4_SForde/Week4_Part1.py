@@ -17,10 +17,11 @@
 import arcpy
 import os
 
+# base folder path
 script_dir = os.path.dirname(os.path.abspath(__file__))
-
 workspace = os.path.join(script_dir, "workspace_04")
 
+# target and join feature paths
 target_feature = os.path.join(workspace, "RIPTA_Bus_Stops.shp")
 join_feature = os.path.join(workspace, "RIDOT_Roads__2016_.shp")
 
