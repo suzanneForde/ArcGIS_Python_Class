@@ -17,10 +17,10 @@ print("Argument 3 = " + str(sys.argv[3]))
 
 def function_one(spanish):
     print("Hola,", spanish)
-function_one (spanish = "como estas.")
+function_one (spanish = str(sys.argv[1]))
 def function2(name1):
     print("Me llamo", name1)
-function2 (name1 = "Suzie.")
+function2 (name1 = str(sys.argv[2]))
 
 
 # # # The following code produces a countdown that I found from the following Youtube video
