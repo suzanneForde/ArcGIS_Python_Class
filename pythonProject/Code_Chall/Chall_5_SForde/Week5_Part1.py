@@ -97,6 +97,8 @@ try:
     df1 = pd.read_csv(r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data\deleted_bear_den_columns.csv")
     df2 = pd.read_csv(r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data\ot_pups_deleted_col.csv")
 
+    merged_df = pd.concat([df1, df2], axis=1)
+
 # Merge the dataframes based on the "species" column
     merged_df = pd.merge(df1, df2, on="vernacularName")
 
@@ -104,7 +106,7 @@ try:
     merged_df.to_csv("merged_species_data.csv", index=False)
     print("Merged data saved successfully.")
 except:
-    pass
+    print("An error occurred:", e)
 
 # import arcpy
 # import csv
