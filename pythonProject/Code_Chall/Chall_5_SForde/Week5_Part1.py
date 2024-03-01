@@ -88,30 +88,23 @@ import csv
 
 # Merging datasets
 
+import pandas as pd
+
 workspace = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data"
-dataset1 = {}
-with open('ot_pups_deleted_col.csv', 'r') as file1:
-    next(file1)
-    for line in file1:
-        vernacularName, decimalLatitude, decimalLongitude = line.strip().split(',')
-        dataset1.setdefault(vernacularName, []).append((decimalLatitude, decimalLongitude))
 
-# Open the second dataset and merge the latitude, longitude based on species
-merged_data = []
-with open('ot_pups_deleted_col.csv', 'r') as file2:
-    next(file2)  # Skip the header
-    for line in file2:
-        vernacularName, decimalLatitude, decimalLongitude = line.strip().split(',')
-        if vernacularName in dataset1:
-            for lat, long in dataset1[vernacularName]:
-                merged_data.append((vernacularName, lat, long, decimalLatitude, decimalLongitude))
+# Load the CSV files into pandas dataframes
+try:
+    df1 = pd.read_csv(r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data\deleted_bear_den_columns.csv")
+    df2 = pd.read_csv(r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data\ot_pups_deleted_col.csv")
 
-# Write the merged data to a new CSV file
-with open('merged_bear_otter_dataset.csv', 'w') as merged_file:
-    merged_file.write("vernacularName,latitude1,longitude1,latitude2,longitude2\n")  # Header
-    for vernacularName, lat1, long1, lat2, long2 in merged_data:
-        merged_file.write(f"{vernacularName},{lat1},{long1},{lat2},{long2}\n")
+# Merge the dataframes based on the "species" column
+    merged_df = pd.merge(df1, df2, on="vernacularName")
 
+# Save the merged dataframe to a new CSV file
+    merged_df.to_csv("merged_species_data.csv", index=False)
+    print("Merged data saved successfully.")
+except:
+    pass
 
 # import arcpy
 # import csv
