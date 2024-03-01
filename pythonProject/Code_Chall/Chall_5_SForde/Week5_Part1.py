@@ -17,6 +17,7 @@
 # The heatmaps are set to the right size and extent for your species input data, i.e. appropriate fishnet cellSize.
 # You leave no trace of execution, except the resulting heatmap files.
 # You provide print statements that explain what the code is doing, e.g. Fishnet file generated.
+#
 import os
 import csv
 
@@ -84,12 +85,66 @@ else:
     print(f"File '{po_bo_CSV}' already exists. Not creating it.")
 
 
+import arcpy
+import csv
 
-# import arcpy
-# arcpy.env.workspace = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Class_05"
+arcpy.env.workspace = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data"
+arcpy.env.overwriteOutput = True
+
+data_set1 = r'deleted_bear_den_columns.csv'
+data_set2 = r'ot_pups_deleted_col.csv'
+
+
+def read_data_CSV(data_set):
+    species_data = []
+    with open(data_set, 'r') as file:
+        reader = csv.DictReader(file)
+        for row in reader:
+            if row['vernacularName'] in ['polar_bear', 'sea_otter']:
+                species_data.append((float(row['decimalLatitude']), float(row['decimalLongitude'])))
+    return species_data
+
+
+def save_to_csv(merged_data, merged_species_CSV):
+    with open(merged_species_CSV, 'w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(['decimalLatitude', 'decimalLongitude'])
+        for lat, lon in merged_data:
+            writer.writerow([lat, lon])
+    print("Merged data saved to CSV file:", merged_species_CSV)
+
+
+# Main function
+def main():
+    print("Reading and merging datasets by species...")
+    pol_data = read_data_CSV(data_set1)
+    ot_data = read_data_CSV(data_set2)
+    merged_data = pol_data + ot_data
+
+    print("Saving merged data to CSV file...")
+    save_to_csv(merged_data, "MergedBearOtterData.csv")
+
+
+if __name__ == "__main__":
+    main()
+
+# # Code to overwrite merged data csv creation
+# file_path2 = r'C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data\deleted_bear_den_columns.csv'
+# po_bo_CSV = os.path.basename(file_path2)
 #
-# arcpy.env.overwriteOutput = True
-#
+# if not os.path.exists(file_path):
+#     # File does not exist, create it
+#     with open(file_path, "w") as file:
+#         file.write("This is a new file.")
+#     print(f"File '{po_bo_CSV}' created successfully.")
+# else:
+#     print(f"File '{po_bo_CSV}' already exists. Not creating it.")
+
+
+
+
+
+
 # in_Table = r"Step_1_Deep_Coral.csv"
 # x_coords = "decimalLongitude"
 # y_coords = "decimalLatitude"
