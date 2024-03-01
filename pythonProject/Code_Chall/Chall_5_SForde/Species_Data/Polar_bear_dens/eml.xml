@@ -1,0 +1,133 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 http://rs.gbif.org/schema/eml-gbif-profile/1.1/eml.xsd"
+         packageId="a28eb0fc-73f3-471e-b927-cc58f576c9e0/v2.5" system="http://gbif.org" scope="system"
+         xml:lang="eng">
+
+<dataset>
+  <alternateIdentifier>a28eb0fc-73f3-471e-b927-cc58f576c9e0</alternateIdentifier>
+  <alternateIdentifier>https://www.sciencebase.gov/catalog/item/53973bf8e4b0f7580bc0a969</alternateIdentifier>
+  <alternateIdentifier>https://www1.usgs.gov/obis-usa/ipt/resource?r=usgs_asc_polarbearmaternaldens_20150129</alternateIdentifier>
+  <title xml:lang="eng">USGS Alaska Science Center Polar Bear Maternal Dens</title>
+      <creator>
+    <individualName>
+        <givenName>George</givenName>
+      <surName>Durner</surName>
+    </individualName>
+    <organizationName>U.S. Geological Survey</organizationName>
+    <positionName>Research Zoologist</positionName>
+    <address>
+        <deliveryPoint>4210 University Drive</deliveryPoint>
+        <city>Anchorage</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99508-4626</postalCode>
+        <country>US</country>
+    </address>
+    <electronicMailAddress>gdurner@usgs.gov</electronicMailAddress>
+          <userId directory="http://orcid.org/">0000-0002-3370-1191</userId>
+      </creator>
+      <metadataProvider>
+    <individualName>
+        <givenName>Abigail</givenName>
+      <surName>Benson</surName>
+    </individualName>
+    <organizationName>U.S. Geological Survey</organizationName>
+    <positionName>Biologist</positionName>
+    <electronicMailAddress>albenson@usgs.gov</electronicMailAddress>
+      </metadataProvider>
+      <associatedParty>
+    <individualName>
+        <givenName>Abby</givenName>
+      <surName>Benson</surName>
+    </individualName>
+    <organizationName>U.S. Geological Survey</organizationName>
+    <positionName>Biologist</positionName>
+    <electronicMailAddress>albenson@usgs.gov</electronicMailAddress>
+          <userId directory="http://orcid.org/">0000-0002-4391-107X</userId>
+    <role>publisher</role>
+      </associatedParty>
+  <pubDate>
+      2022-03-08
+  </pubDate>
+  <language>eng</language>
+  <abstract>
+    <para>This data reports on the approximate locations and methods of discovery of 530 polar bear (Ursus maritimus) maternal dens observed in the Beaufort and Chukchi seas and neighboring areas between 1910 and 2018, and archived partly by the U.S. Geological Survey, Alaska Science Center, and partly by the U.S. Fish and Wildlife Service, Marine Mammals Management, in Anchorage, Alaska. Data fields include a unique and permanent USGS identifier for each record, the year when the adult would have been expected to depart the den with young, an index of whether the maternal den was confirmed or probable, coordinates of the den, substrate that each den occurred on, the agency source of each record, method of discovery of each den, method used to determine the position of each den, and estimated position uncertainty. Data were collected through standardized VHF aircraft surveys and satellite radio telemetry, field research activities in polar bear habitat, and anecdotal reports from other government agencies, coastal residents, and industry personnel. The polar bear maternal den records presented here supersede an earlier version of these data (Durner and others, 2010)</para>
+  </abstract>
+      <keywordSet>
+            <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+            <keyword>Observation</keyword>
+        <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+      </keywordSet>
+      <keywordSet>
+            <keyword>Occurrence</keyword>
+        <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type_2015-07-10.xml</keywordThesaurus>
+      </keywordSet>
+  <additionalInfo>
+    <para>Marine, harvested by OBIS</para>
+  </additionalInfo>
+  <intellectualRights>
+    <para>To the extent possible under law, the publisher has waived all rights to these data and has dedicated them to the <ulink url="http://creativecommons.org/publicdomain/zero/1.0/legalcode"><citetitle>Public Domain (CC0 1.0)</citetitle></ulink>. Users may copy, modify, distribute and use the work, including for commercial purposes, without restriction.</para>
+  </intellectualRights>
+  <distribution scope="document">
+    <online>
+      <url function="information">https://doi.org/10.5066/P9RPHH50</url>
+    </online>
+  </distribution>
+  <coverage>
+      <geographicCoverage>
+          <geographicDescription>Beaufort Sea and Chukchi Sea of northern Alaska, Canada, and Russia</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>162.839</westBoundingCoordinate>
+          <eastBoundingCoordinate>-22.849</eastBoundingCoordinate>
+          <northBoundingCoordinate>83.521</northBoundingCoordinate>
+          <southBoundingCoordinate>63.367</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+  </coverage>
+  <maintenance>
+    <description>
+      <para></para>
+    </description>
+    <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+  </maintenance>
+
+      <contact>
+    <individualName>
+        <givenName>George</givenName>
+      <surName>Durner</surName>
+    </individualName>
+    <organizationName>U.S. Geological Survey</organizationName>
+    <positionName>Research Zoologist</positionName>
+    <address>
+        <deliveryPoint>4210 University Drive</deliveryPoint>
+        <city>Anchorage</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99508-4626</postalCode>
+        <country>US</country>
+    </address>
+    <electronicMailAddress>gdurner@usgs.gov</electronicMailAddress>
+          <userId directory="http://orcid.org/">0000-0002-3370-1191</userId>
+      </contact>
+</dataset>
+  <additionalMetadata>
+    <metadata>
+      <gbif>
+          <dateStamp>2015-01-29T07:33:50.464+00:00</dateStamp>
+          <hierarchyLevel>dataset</hierarchyLevel>
+            <citation identifier="https://doi.org/10.5066/P9RPHH50">Durner, G. M., 2010, Catalogue of Polar Bear (Ursus maritimus) maternal den locations in the Beaufort and Chukchi seas and nearby areas, 1910-2018 (ver. 2.0, January, 2020): U.S. Geological Survey data release, https://doi.org/10.5066/P9RPHH50</citation>
+          <bibliography>
+                <citation identifier="https://doi.org/10.3133/ds1121">Durner, G.M., Amstrup, S.C., Atwood, T.C., Douglas, D.C., Fischbach, A.S., Olson, J.W., Rode, K.D., and Wilson, R.R., 2019, Catalogue of polar bear (Ursus maritimus) maternal den locations in the Beaufort and Chukchi Seas and nearby areas, 1910–2018: U.S. Geological Survey Data Series 1121 12 p. including appendixes, https://doi.org/10.3133/ds1121</citation>
+                <citation identifier="https://doi.org/10.3354/meps12000">Olson JW, Rode KD, Eggett D, Smith TS and others (2017) Collar temperature sensor data reveal long-term patterns in southern Beaufort Sea polar bear den distribution on pack ice and land. Mar Ecol Prog Ser 564:211-224. https://doi.org/10.3354/meps12000</citation>
+                <citation identifier="https://doi.org/10.1093/jmammal/gyx181">Karyn D Rode, Jay Olson, Dennis Eggett, David C Douglas, George M Durner, Todd C Atwood, Eric V Regehr, Ryan R Wilson, Tom Smith, Michelle St. Martin, Den phenology and reproductive success of polar bears in a changing climate, Journal of Mammalogy, Volume 99, Issue 1, 1 February 2018, Pages 16–26, https://doi.org/10.1093/jmammal/gyx181</citation>
+                <citation identifier="https://doi.org/10.3133/ds568">Durner, G.M., Fischbach, A.S., Amstrup, S.C., and Douglas, D.C., 2010, Catalogue of polar bear (Ursus maritimus) maternal den locations in the Beaufort Sea and neighboring regions, Alaska, 1910–2010: U.S. Geological Survey Data Series 568, 14 p.</citation>
+                <citation identifier="https://doi.org/10.1007/s00300-007-0300-4">Fischbach, A.S., Amstrup, S.C. &amp; Douglas, D.C. Polar Biol (2007) 30: 1395. https://doi.org/10.1007/s00300-007-0300-4</citation>
+          </bibliography>
+          <dc:replaces>a28eb0fc-73f3-471e-b927-cc58f576c9e0/v2.5.xml</dc:replaces>
+      </gbif>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
