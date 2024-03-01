@@ -1,4 +1,9 @@
 
+# Data collected from GBIF | Global Biodiversity Information Facility
+# https://www.gbif.org/dataset/a28eb0fc-73f3-471e-b927-cc58f576c9e0
+# https://www.gbif.org/dataset/c911249c-5bdc-4847-8653-d7b81f11b7cc
+
+
 # pandas is a python library that can be used to work with data sets
 import pandas as pd
 import os
