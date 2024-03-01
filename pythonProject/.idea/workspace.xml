@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23e469c6-b1ad-4f66-9af3-d3e59666a3fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Species_Data/deleted_bear_den_columns.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Species_Data/ot_pups_deleted_col.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Week5_FileConversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Week5_FileConversion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Week5_Part1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Week5_Part1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
