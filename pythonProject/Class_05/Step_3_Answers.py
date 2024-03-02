@@ -111,8 +111,8 @@ arcpy.SpatialJoin_analysis(target_features, join_features, out_feature_class,
 if arcpy.Exists(out_feature_class):
     print("Created Heatmap file successfully!")
     print("Deleting intermediate files")
-    # arcpy.Delete_management(target_features)
-    # arcpy.Delete_management(join_features)
+    arcpy.Delete_management(target_features)
+    arcpy.Delete_management(join_features)
 
 
 

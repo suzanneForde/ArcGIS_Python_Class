@@ -19,110 +19,16 @@
 # You provide print statements that explain what the code is doing, e.g. Fishnet file generated.
 ###############################################################
 
-# NOTE: I converted xml to .csv, I learned a lot, but it was hell.
+# NOTE: I converted xml to .csv in the Week5_FileConversion.py file. I learned a lot, but it was hell.
 # For this challenge I chose to use Alaskan polar bear maternal dens data and sea otter females with pups data (Prince William Sound, Alaska)
 # I figured since polar bears are predators to sea otters that looking at their proximity on a map would be interesting.
 
-
-# import os
-# import csv
-#
-# # OTTER PUP FILE COLUMN DELETION
-# otter_pup_FIRST =  r'C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data\otter_female_pups.csv'
-# otter_pup_SECOND = r'C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data\ot_pups_deleted_col.csv'
-#
-# # specifying columns to be deleted
-# columns_to_delete = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 76, 77, 78]
-#
-# # opening files to be modified
-# with open(otter_pup_FIRST, 'r', newline='') as infile, \
-#         open(otter_pup_SECOND, 'w', newline='') as outfile:
-#
-#     reader = csv.reader(infile)
-#     writer = csv.writer(outfile)
-#
-#     for row in reader:
-#         modified_row = [row[i] for i in range(len(row)) if i not in columns_to_delete]
-#         writer.writerow(modified_row)
-# print('Columns deleted. otter_pup_second CSV file created.')
-#
-#
-# # Code so that python can read over the created .csv file
-# file_path = r'C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data\ot_pups_deleted_col.csv'
-# ot_pu_CSV = os.path.basename(file_path)
-#
-# if not os.path.exists(file_path):
-#     # File does not exist, create it
-#     with open(file_path, "w") as file:
-#         file.write("This is a new file.")
-#     print(f"File '{ot_pu_CSV}' created successfully.")
-# else:
-#     print(f"File '{ot_pu_CSV}' already exists. Not creating it.")
-#
-# # POLAR BEAR FILE COLUMN DELETION
-# import csv
-#
-# polar_bear_INPUT =  r'C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data\bear_dens.csv'
-# polar_bear_OUTPUT = r'C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data\deleted_bear_den_columns.csv'
-# #
-# columns_to_del = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 18, 20, 21, 22, 23, 24, 25]
-#
-# with open(polar_bear_INPUT, 'r', newline='') as infile, \
-#         open(polar_bear_OUTPUT, 'w', newline='') as outfile:
-#
-#     reader = csv.reader(infile)
-#     writer = csv.writer(outfile)
-#
-#     for row in reader:
-#         modified_row2 = [row[i] for i in range(len(row)) if i not in columns_to_del]
-#         writer.writerow(modified_row2)
-# print('Columns deleted. deleted_bear_den_columns CSV file created.')
-#
-# # Code so that python can read over the created .csv file
-# file_path2 = r'C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data\deleted_bear_den_columns.csv'
-# po_bo_CSV = os.path.basename(file_path2)
-#
-# if not os.path.exists(file_path):
-#     # File does not exist, create it
-#     with open(file_path, "w") as file:
-#         file.write("This is a new file.")
-#     print(f"File '{po_bo_CSV}' created successfully.")
-# else:
-#     print(f"File '{po_bo_CSV}' already exists. Not creating it.")
-#######################################
-
-
-# Merging datasets
-
-# import os
-#
-# if not os.path.exists('merged_species_file.csv'):
-#     import pandas as pd
-#     workspace = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data"
-#
-#     bear_file_path = os.path.join(workspace, "deleted_bear_den_columns.csv")
-#     otter_file_path = os.path.join(workspace, "ot_pups_deleted_col.csv")
-#
-#
-#     df1 = pd.read_csv(bear_file_path)
-#     df2 = pd.read_csv(otter_file_path)
-#
-#     # Merge the two dataframes
-#     merged_df = pd.concat([df1, df2], ignore_index=True)
-#
-#     # Write the merged dataframe to a new CSV file
-#     merged_file_path = os.path.join(workspace, 'merged_species_file.csv' )
-#     merged_df.to_csv(merged_file_path, index=False)
-#
-#     print("Merged data saved successfully.")
-# else:
-#     print("Merged species .csv already exists. Skipping process.")
-
-
+# CREATING SHAPEFILES
 
 import arcpy
 
 arcpy.env.workspace = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data"
+arcpy.env.overwriteOutput = True
 
 in_Table = r"merged_species_file.csv"
 x_coords = "decimalLongitude"
@@ -137,16 +43,61 @@ lyr = arcpy.MakeXYEventLayer_management(in_Table, x_coords, y_coords, out_Layer,
 
 print(arcpy.GetCount_management(out_Layer))
 
-# Save to a layer file
-arcpy.CopyFeatures_management(lyr, saved_Layer)
+arcpy.CopyFeatures_management(lyr, saved_Layer) # Save to a layer file
+desc = arcpy.Describe(saved_Layer)
+XMin = desc.extent.XMin
+XMax = desc.extent.XMax
+YMin = desc.extent.YMin
+YMax = desc.extent.YMax
+print("Extent:", XMin, XMax, YMin, YMax)
 
 if arcpy.Exists(saved_Layer):
     print("Merged species shapefile created successfully!")
-#
-# ##### 2. Print the count of the number of records in the file. (Hint: see above!)
-# # https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/get-count.htm
-#
-# print(arcpy.GetCount_management(out_Layer))
 
+# Now that the shapefile is saved and we have its extent, we can proceed with creating the fishnet grid
 
-# ##### 4. Visualize the file in ArcPro by dragging it into the program.
+arcpy.env.outputCoordinateSystem = arcpy.SpatialReference(4326)
+
+outFeatureClass = "Species_Fishnet.shp"  # output fishnet
+
+# Origin of the fishnet
+originCoordinate = str(XMin) + " " + str(YMin)
+yAxisCoordinate = str(XMin) + " " + str(YMin + 1)
+cellSizeWidth = "5"
+cellSizeHeight = "5"
+numRows = ""  # Leave blank, as we have set cellSize
+numColumns = "" # Leave blank, as we have set cellSize
+oppositeCorner = str(XMax) + " " + str(YMax)  # i.e. max x and max y coordinate
+labels = "NO_LABELS"
+templateExtent = "#"  # No need to use, as we have set yAxisCoordinate and oppositeCorner
+geometryType = "POLYGON"  # Create a polygon, could be POLYLINE
+
+arcpy.CreateFishnet_management(outFeatureClass, originCoordinate, yAxisCoordinate,
+                               cellSizeWidth, cellSizeHeight, "", "",
+                               str(XMax) + " " + str(YMax), "NO_LABELS",
+                               "#", "POLYGON")
+
+print("Fishnet grid created successfully!")
+#
+# if arcpy.Exists(outFeatureClass):
+#     print("Created Fishnet file successfully!")
+
+# # Spatial Join to join the fishnet to observed points.
+# target_features = "Species_Fishnet.shp"  # e.g., fishnet grid
+# join_features = "merged_species_output.shp"      # point data
+# out_feature_class = "species_heatmap.shp"         # output heatmap
+#
+# # Perform spatial join
+# arcpy.SpatialJoin_analysis(target_features, join_features, out_feature_class,
+#                            join_operation="JOIN_ONE_TO_ONE",
+#                            join_type="KEEP_ALL",
+#                            match_option="INTERSECT",
+#                            search_radius="",
+#                            distance_field_name="")
+# print("Polar bear den and otter moms and pups heatmap created successfully!")
+
+# if arcpy.Exists(out_feature_class):
+#     print("Created Heatmap file successfully!")
+#     print("Deleting intermediate files")
+#     # arcpy.Delete_management(target_features)
+#     # arcpy.Delete_management(join_features)
