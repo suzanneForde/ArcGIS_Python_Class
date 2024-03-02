@@ -5,9 +5,471 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23e469c6-b1ad-4f66-9af3-d3e59666a3fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Class_06/Find Areas Suitable for Development.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_0_Answers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_1_Answers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_1_Toolbox_Pro.tbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_1_data/RI_Roads.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_1_data/RI_Roads.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_1_data/RI_Roads.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_1_data/RI_Roads.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_1_data/RI_Roads.shp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_1_data/RI_Roads.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_1_data/Step_1_data/Places.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_1_data/Step_1_data/Places.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_1_data/Step_1_data/Places.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_1_data/Step_1_data/Places.sbn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_1_data/Step_1_data/Places.sbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_1_data/Step_1_data/Places.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_1_data/Step_1_data/Places.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_1_data/Step_1_data/RI_Roads.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_1_data/Step_1_data/RI_Roads.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_1_data/Step_1_data/RI_Roads.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_1_data/Step_1_data/RI_Roads.sbn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_1_data/Step_1_data/RI_Roads.sbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_1_data/Step_1_data/RI_Roads.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_1_data/Step_1_data/RI_Roads.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_1_data/Step_1_data/State_Boundary_1997.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_1_data/Step_1_data/State_Boundary_1997.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_1_data/Step_1_data/State_Boundary_1997.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_1_data/Step_1_data/State_Boundary_1997.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_1_data/Step_1_data/State_Boundary_1997.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_Answers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B1.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B1.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B1.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B1.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B1.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B10.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B10.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B10.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B10.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B10.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B11.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B11.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B11.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B11.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B11.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B2.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B2.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B2.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B2.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B2.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B3.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B3.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B3.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B3.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B3.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B4.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B4.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B4.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B4.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B4.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B5.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B5.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B5.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B5.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B5.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B6.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B6.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B6.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B6.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B6.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B7.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B7.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B7.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B7.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B7.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B8.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B8.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B8.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B8.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B8.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B9.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B9.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B9.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B9.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_B9.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_BQA.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_BQA.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_BQA.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_BQA.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013/LC08_L1TP_012031_20131212_20170307_01_T1_BQA.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013_Composite.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013_Composite.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013_Composite.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013_Composite.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2013_Composite.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B1.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B1.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B1.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B1.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B1.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B10.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B10.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B10.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B10.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B10.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B11.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B11.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B11.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B11.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B11.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B2.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B2.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B2.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B2.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B2.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B3.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B3.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B3.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B3.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B3.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B4.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B4.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B4.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B4.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B4.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B5.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B5.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B5.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B5.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B5.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B6.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B6.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B6.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B6.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B6.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B7.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B7.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B7.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B7.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B7.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B8.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B8.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B8.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B8.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B8.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B9.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B9.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B9.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B9.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_B9.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_BQA.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_BQA.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_BQA.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_BQA.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2014/LC08_L1TP_012031_20141215_20170302_01_T1_BQA.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B1.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B1.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B1.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B1.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B1.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B10.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B10.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B10.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B10.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B10.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B11.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B11.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B11.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B11.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B11.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B2.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B2.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B2.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B2.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B2.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B3.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B3.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B3.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B3.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B3.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B4.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B4.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B4.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B4.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B4.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B5.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B5.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B5.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B5.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B5.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B6.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B6.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B6.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B6.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B6.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B7.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B7.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B7.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B7.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B7.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B8.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B8.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B8.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B8.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B8.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B9.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B9.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B9.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B9.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_B9.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_BQA.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_BQA.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_BQA.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_BQA.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2015/LC08_L1TP_012031_20150201_20170301_01_T1_BQA.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B1.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B1.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B1.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B1.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B1.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B10.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B10.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B10.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B10.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B10.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B11.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B11.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B11.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B11.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B11.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B2.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B2.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B2.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B2.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B2.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B3.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B3.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B3.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B3.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B3.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B4.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B4.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B4.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B4.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B4.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B5.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B5.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B5.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B5.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B5.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B6.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B6.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B6.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B6.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B6.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B7.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B7.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B7.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B7.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B7.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B8.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B8.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B8.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B8.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B8.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B9.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B9.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B9.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B9.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_B9.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_BQA.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_BQA.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_BQA.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_BQA.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2016/LC08_L1TP_012031_20160103_20170224_01_T1_BQA.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B1.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B1.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B1.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B1.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B1.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B10.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B10.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B10.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B10.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B10.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B11.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B11.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B11.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B11.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B11.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B2.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B2.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B2.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B2.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B2.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B3.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B3.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B3.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B3.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B3.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B4.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B4.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B4.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B4.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B4.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B5.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B5.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B5.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B5.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B5.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B6.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B6.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B6.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B6.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B6.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B7.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B7.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B7.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B7.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B7.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B8.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B8.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B8.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B8.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B8.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B9.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B9.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B9.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B9.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_B9.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_BQA.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_BQA.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_BQA.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_BQA.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2017/LC08_L1TP_012031_20171207_20180125_01_T1_BQA.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B1.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B1.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B1.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B1.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B1.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B10.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B10.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B10.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B10.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B10.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B11.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B11.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B11.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B11.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B11.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B2.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B2.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B2.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B2.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B2.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B3.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B3.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B3.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B3.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B3.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B4.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B4.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B4.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B4.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B4.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B5.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B5.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B5.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B5.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B5.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B6.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B6.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B6.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B6.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B6.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B7.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B7.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B7.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B7.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B7.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B8.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B8.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B8.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B8.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B8.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B9.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B9.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B9.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B9.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_B9.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_BQA.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_BQA.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_BQA.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_BQA.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2018/LC08_L1TP_012031_20181226_20190129_01_T1_BQA.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B1.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B1.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B1.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B1.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B1.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B10.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B10.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B10.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B10.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B10.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B11.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B11.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B11.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B11.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B11.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B2.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B2.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B2.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B2.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B2.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B3.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B3.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B3.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B3.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B3.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B4.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B4.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B4.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B4.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B4.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B5.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B5.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B5.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B5.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B5.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B6.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B6.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B6.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B6.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B6.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B7.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B7.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B7.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B7.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B7.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B8.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B8.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B8.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B8.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B8.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B9.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B9.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B9.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B9.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_B9.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_BQA.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_BQA.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_BQA.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_BQA.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/Winter_2019/LC08_L1TP_012031_20190111_20190131_01_T1_BQA.tif.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/winter_2013.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/winter_2013.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/winter_2013.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/winter_2013.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_06/Step_2_data/winter_2013.tif.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Week5_Part1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Week5_Part1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/merged_species_data.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,40 +503,86 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.Step_0_Answers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_3 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_4 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week2_Part1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week2_Part2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week2_Part3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week2_Part4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week2_Part5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week3_Part1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week3_Part2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week3_Part3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week4_Part1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week5_FileConversion.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week5_Part1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/NRS528_Py_GIS&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.Find Areas Suitable for Development.executor": "Run",
+    "Python.Step_0.executor": "Run",
+    "Python.Step_0_Answers.executor": "Run",
+    "Python.Step_1.executor": "Run",
+    "Python.Step_2 (1).executor": "Run",
+    "Python.Step_2.executor": "Run",
+    "Python.Step_3 (1).executor": "Run",
+    "Python.Step_3.executor": "Run",
+    "Python.Step_4 (1).executor": "Run",
+    "Python.Step_4.executor": "Run",
+    "Python.Step_5.executor": "Run",
+    "Python.Step_6.executor": "Run",
+    "Python.Week2_Part1.executor": "Run",
+    "Python.Week2_Part2.executor": "Run",
+    "Python.Week2_Part3.executor": "Run",
+    "Python.Week2_Part4.executor": "Run",
+    "Python.Week2_Part5.executor": "Run",
+    "Python.Week3_Part1.executor": "Run",
+    "Python.Week3_Part2.executor": "Run",
+    "Python.Week3_Part3.executor": "Run",
+    "Python.Week4_Part1.executor": "Run",
+    "Python.Week5_FileConversion.executor": "Run",
+    "Python.Week5_Part1.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/NRS528_Py_GIS",
+    "settings.editor.selected.configurable": "preferences.fileTypes"
   }
-}</component>
-  <component name="RunManager" selected="Python.Week5_Part1">
+}]]></component>
+  <component name="RunManager" selected="Python.Step_2">
+    <configuration name="Find Areas Suitable for Development" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Class_06" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_06/Find Areas Suitable for Development.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Step_0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Class_06" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_06/Step_0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Step_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -84,33 +592,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Class_05" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Class_06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_05/Step_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Step_3 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Class_05" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_05/Step_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_06/Step_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,28 +651,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Week4_Part1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code_Chall/Chall_4_SForde" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/Week4_Part1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Week5_FileConversion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -233,11 +697,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Step_2" />
+        <item itemvalue="Python.Find Areas Suitable for Development" />
+        <item itemvalue="Python.Step_0" />
         <item itemvalue="Python.Week5_Part1" />
         <item itemvalue="Python.Week5_FileConversion" />
-        <item itemvalue="Python.Week4_Part1" />
-        <item itemvalue="Python.Step_3 (1)" />
-        <item itemvalue="Python.Step_2" />
       </list>
     </recent_temporary>
   </component>
@@ -279,6 +743,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Class_06/Find Areas Suitable for Development.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Class_06/Step_2.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
