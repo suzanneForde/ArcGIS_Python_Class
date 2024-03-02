@@ -17,96 +17,108 @@
 # The heatmaps are set to the right size and extent for your species input data, i.e. appropriate fishnet cellSize.
 # You leave no trace of execution, except the resulting heatmap files.
 # You provide print statements that explain what the code is doing, e.g. Fishnet file generated.
+###############################################################
 
-import os
-import csv
-
-# OTTER PUP FILE COLUMN DELETION
-otter_pup_FIRST =  r'C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data\otter_female_pups.csv'
-otter_pup_SECOND = r'C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data\ot_pups_deleted_col.csv'
-
-# specifying columns to be deleted
-columns_to_delete = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 76, 77, 78]
-
-# opening files to be modified
-with open(otter_pup_FIRST, 'r', newline='') as infile, \
-        open(otter_pup_SECOND, 'w', newline='') as outfile:
-
-    reader = csv.reader(infile)
-    writer = csv.writer(outfile)
-
-    for row in reader:
-        modified_row = [row[i] for i in range(len(row)) if i not in columns_to_delete]
-        writer.writerow(modified_row)
-print('Columns deleted. otter_pup_second CSV file created.')
+# NOTE: I converted xml to .csv, I learned a lot, but it was hell.
+# For this challenge I chose to use Alaskan polar bear maternal dens data and sea otter females with pups data (Prince William Sound, Alaska)
+# I figured since polar bears are predators to sea otters that looking at their proximity on a map would be interesting.
 
 
-# Code so that I can overwrite the created .csv file
-file_path = r'C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data\ot_pups_deleted_col.csv'
-ot_pu_CSV = os.path.basename(file_path)
-
-if not os.path.exists(file_path):
-    # File does not exist, create it
-    with open(file_path, "w") as file:
-        file.write("This is a new file.")
-    print(f"File '{ot_pu_CSV}' created successfully.")
-else:
-    print(f"File '{ot_pu_CSV}' already exists. Not creating it.")
-
-# POLAR BEAR FILE COLUMN DELETION
-import csv
-
-polar_bear_INPUT =  r'C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data\bear_dens.csv'
-polar_bear_OUTPUT = r'C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data\deleted_bear_den_columns.csv'
+# import os
+# import csv
 #
-columns_to_del = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 18, 20, 21, 22, 23, 24, 25]
-
-with open(polar_bear_INPUT, 'r', newline='') as infile, \
-        open(polar_bear_OUTPUT, 'w', newline='') as outfile:
-
-    reader = csv.reader(infile)
-    writer = csv.writer(outfile)
-
-    for row in reader:
-        modified_row2 = [row[i] for i in range(len(row)) if i not in columns_to_del]
-        writer.writerow(modified_row2)
-print('Columns deleted. deleted_bear_den_columns CSV file created.')
-
-# Code to overwrite polar bear csv creation
-file_path2 = r'C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data\deleted_bear_den_columns.csv'
-po_bo_CSV = os.path.basename(file_path2)
-
-if not os.path.exists(file_path):
-    # File does not exist, create it
-    with open(file_path, "w") as file:
-        file.write("This is a new file.")
-    print(f"File '{po_bo_CSV}' created successfully.")
-else:
-    print(f"File '{po_bo_CSV}' already exists. Not creating it.")
-
+# # OTTER PUP FILE COLUMN DELETION
+# otter_pup_FIRST =  r'C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data\otter_female_pups.csv'
+# otter_pup_SECOND = r'C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data\ot_pups_deleted_col.csv'
+#
+# # specifying columns to be deleted
+# columns_to_delete = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 76, 77, 78]
+#
+# # opening files to be modified
+# with open(otter_pup_FIRST, 'r', newline='') as infile, \
+#         open(otter_pup_SECOND, 'w', newline='') as outfile:
+#
+#     reader = csv.reader(infile)
+#     writer = csv.writer(outfile)
+#
+#     for row in reader:
+#         modified_row = [row[i] for i in range(len(row)) if i not in columns_to_delete]
+#         writer.writerow(modified_row)
+# print('Columns deleted. otter_pup_second CSV file created.')
+#
+#
+# # Code so that I can overwrite the created .csv file
+# file_path = r'C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data\ot_pups_deleted_col.csv'
+# ot_pu_CSV = os.path.basename(file_path)
+#
+# if not os.path.exists(file_path):
+#     # File does not exist, create it
+#     with open(file_path, "w") as file:
+#         file.write("This is a new file.")
+#     print(f"File '{ot_pu_CSV}' created successfully.")
+# else:
+#     print(f"File '{ot_pu_CSV}' already exists. Not creating it.")
+#
+# # POLAR BEAR FILE COLUMN DELETION
+# import csv
+#
+# polar_bear_INPUT =  r'C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data\bear_dens.csv'
+# polar_bear_OUTPUT = r'C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data\deleted_bear_den_columns.csv'
+# #
+# columns_to_del = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 18, 20, 21, 22, 23, 24, 25]
+#
+# with open(polar_bear_INPUT, 'r', newline='') as infile, \
+#         open(polar_bear_OUTPUT, 'w', newline='') as outfile:
+#
+#     reader = csv.reader(infile)
+#     writer = csv.writer(outfile)
+#
+#     for row in reader:
+#         modified_row2 = [row[i] for i in range(len(row)) if i not in columns_to_del]
+#         writer.writerow(modified_row2)
+# print('Columns deleted. deleted_bear_den_columns CSV file created.')
+#
+# # Code to overwrite polar bear csv creation
+# file_path2 = r'C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data\deleted_bear_den_columns.csv'
+# po_bo_CSV = os.path.basename(file_path2)
+#
+# if not os.path.exists(file_path):
+#     # File does not exist, create it
+#     with open(file_path, "w") as file:
+#         file.write("This is a new file.")
+#     print(f"File '{po_bo_CSV}' created successfully.")
+# else:
+#     print(f"File '{po_bo_CSV}' already exists. Not creating it.")
+#######################################
 
 
 # Merging datasets
 
-import pandas as pd
+import os
 
-workspace = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data"
+if not os.path.exists('merged_species_file.csv'):
+    import pandas as pd
+    workspace = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data"
 
-# Load the CSV files into pandas dataframes
-try:
-    df1 = pd.read_csv(r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data\deleted_bear_den_columns.csv")
-    df2 = pd.read_csv(r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data\ot_pups_deleted_col.csv")
+    bear_file_path = os.path.join(workspace, "deleted_bear_den_columns.csv")
+    otter_file_path = os.path.join(workspace, "ot_pups_deleted_col.csv")
 
-    merged_df = pd.concat([df1, df2], axis=1)
 
-# Merge the dataframes based on the "species" column
-    merged_df = pd.merge(df1, df2, on="vernacularName")
+    df1 = pd.read_csv(bear_file_path)
+    df2 = pd.read_csv(otter_file_path)
 
-# Save the merged dataframe to a new CSV file
-    merged_df.to_csv("merged_species_data.csv", index=False)
+    # Merge the two dataframes
+    merged_df = pd.concat([df1, df2], ignore_index=True)
+
+    # Write the merged dataframe to a new CSV file
+    merged_file_path = os.path.join(workspace, 'merged_species_file.csv' )
+    merged_df.to_csv(merged_file_path, index=False)
+
     print("Merged data saved successfully.")
-except:
-    print("An error occurred:", e)
+else:
+    print("Merged species .csv already exists. Skipping process.")
+
+
 
 # import arcpy
 # import csv
