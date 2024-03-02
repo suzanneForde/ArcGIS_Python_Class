@@ -47,7 +47,7 @@
 # print('Columns deleted. otter_pup_second CSV file created.')
 #
 #
-# # Code so that I can overwrite the created .csv file
+# # Code so that python can read over the created .csv file
 # file_path = r'C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data\ot_pups_deleted_col.csv'
 # ot_pu_CSV = os.path.basename(file_path)
 #
@@ -78,7 +78,7 @@
 #         writer.writerow(modified_row2)
 # print('Columns deleted. deleted_bear_den_columns CSV file created.')
 #
-# # Code to overwrite polar bear csv creation
+# # Code so that python can read over the created .csv file
 # file_path2 = r'C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data\deleted_bear_den_columns.csv'
 # po_bo_CSV = os.path.basename(file_path2)
 #
@@ -94,62 +94,62 @@
 
 # Merging datasets
 
-import os
-
-if not os.path.exists('merged_species_file.csv'):
-    import pandas as pd
-    workspace = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data"
-
-    bear_file_path = os.path.join(workspace, "deleted_bear_den_columns.csv")
-    otter_file_path = os.path.join(workspace, "ot_pups_deleted_col.csv")
-
-
-    df1 = pd.read_csv(bear_file_path)
-    df2 = pd.read_csv(otter_file_path)
-
-    # Merge the two dataframes
-    merged_df = pd.concat([df1, df2], ignore_index=True)
-
-    # Write the merged dataframe to a new CSV file
-    merged_file_path = os.path.join(workspace, 'merged_species_file.csv' )
-    merged_df.to_csv(merged_file_path, index=False)
-
-    print("Merged data saved successfully.")
-else:
-    print("Merged species .csv already exists. Skipping process.")
-
-
-
-# import arcpy
-# import csv
+# import os
 #
-# arcpy.env.workspace = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data"
-# arcpy.env.overwriteOutput = True
+# if not os.path.exists('merged_species_file.csv'):
+#     import pandas as pd
+#     workspace = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data"
+#
+#     bear_file_path = os.path.join(workspace, "deleted_bear_den_columns.csv")
+#     otter_file_path = os.path.join(workspace, "ot_pups_deleted_col.csv")
+#
+#
+#     df1 = pd.read_csv(bear_file_path)
+#     df2 = pd.read_csv(otter_file_path)
+#
+#     # Merge the two dataframes
+#     merged_df = pd.concat([df1, df2], ignore_index=True)
+#
+#     # Write the merged dataframe to a new CSV file
+#     merged_file_path = os.path.join(workspace, 'merged_species_file.csv' )
+#     merged_df.to_csv(merged_file_path, index=False)
+#
+#     print("Merged data saved successfully.")
+# else:
+#     print("Merged species .csv already exists. Skipping process.")
 
-# in_Table = r"Step_1_Deep_Coral.csv"
-# x_coords = "decimalLongitude"
-# y_coords = "decimalLatitude"
-# z_coords = ""
-# out_Layer = "deepcoral"
-# saved_Layer = r"Step_1_Deep_Coral_Output.shp"
+
+
+import arcpy
+import csv
+
+arcpy.env.workspace = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data"
+arcpy.env.overwriteOutput = True
+
+in_Table = r"Step_1_Deep_Coral.csv"
+x_coords = "decimalLongitude"
+y_coords = "decimalLatitude"
+z_coords = ""
+out_Layer = "deepcoral"
+saved_Layer = r"Step_1_Deep_Coral_Output.shp"
+
+spRef = arcpy.SpatialReference(4326)  # 4326 == WGS 1984
+
+lyr = arcpy.MakeXYEventLayer_management(in_Table, x_coords, y_coords, out_Layer, spRef, z_coords)
 #
-# spRef = arcpy.SpatialReference(4326)  # 4326 == WGS 1984
+# ##### 2. Print the count of the number of records in the file. (Hint: see above!)
+# # https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/get-count.htm
 #
-# lyr = arcpy.MakeXYEventLayer_management(in_Table, x_coords, y_coords, out_Layer, spRef, z_coords)
-# #
-# # ##### 2. Print the count of the number of records in the file. (Hint: see above!)
-# # # https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/get-count.htm
-# #
-# print(arcpy.GetCount_management(out_Layer))
-# #
-# # ##### 3. Check the correct coordinate system has been applied (Hint: see last week!)
-# #
-# arcpy.CopyFeatures_management(lyr, saved_Layer)
-# #
-# if arcpy.Exists(saved_Layer):
-#     print("Created file successfully!")
+print(arcpy.GetCount_management(out_Layer))
 #
-# desc = arcpy.Describe(saved_Layer)
-# print(desc.spatialReference.name)
+# ##### 3. Check the correct coordinate system has been applied (Hint: see last week!)
+#
+arcpy.CopyFeatures_management(lyr, saved_Layer)
+#
+if arcpy.Exists(saved_Layer):
+    print("Created file successfully!")
+
+desc = arcpy.Describe(saved_Layer)
+print(desc.spatialReference.name)
 #
 # ##### 4. Visualize the file in ArcPro by dragging it into the program.
