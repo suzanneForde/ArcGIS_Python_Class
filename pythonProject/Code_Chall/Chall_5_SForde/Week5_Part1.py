@@ -26,10 +26,12 @@
 # CREATING SHAPEFILES
 
 import arcpy
-
-arcpy.env.workspace = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data"
+# set workspace:
+workspace_dir = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_5_SForde\Species_Data"
+arcpy.env.workspace = workspace_dir
 arcpy.env.overwriteOutput = True
 
+# Merges .csv data column names set to (x,y) values for map
 in_Table = r"merged_species_file.csv"
 x_coords = "decimalLongitude"
 y_coords = "decimalLatitude"
@@ -37,12 +39,14 @@ z_coords = ""
 out_Layer = "bear_den_otter_pups"
 saved_Layer = r"merged_species_output.shp"
 
+# setting spatial reference
 spRef = arcpy.SpatialReference(4326)  # 4326 == WGS 1984
 
 lyr = arcpy.MakeXYEventLayer_management(in_Table, x_coords, y_coords, out_Layer, spRef, z_coords)
 
 print(arcpy.GetCount_management(out_Layer))
 
+# extracting extent values
 arcpy.CopyFeatures_management(lyr, saved_Layer) # Save to a layer file
 desc = arcpy.Describe(saved_Layer)
 XMin = desc.extent.XMin
@@ -54,8 +58,6 @@ print("Extent:", XMin, XMax, YMin, YMax)
 if arcpy.Exists(saved_Layer):
     print("Merged species shapefile created successfully!")
 
-# Now that the shapefile is saved, and we have its extent, we can proceed with creating the fishnet grid
-
 arcpy.env.outputCoordinateSystem = arcpy.SpatialReference(4326)
 
 outFeatureClass = "Species_Fishnet.shp"  # output fishnet
@@ -63,7 +65,7 @@ outFeatureClass = "Species_Fishnet.shp"  # output fishnet
 # Origin of the fishnet
 originCoordinate = str(XMin) + " " + str(YMin)
 yAxisCoordinate = str(XMin) + " " + str(YMin + 1)
-cellSizeWidth = "5"
+cellSizeWidth = "5" # I set cell size to 5, but I am still a bit confused on what factors I could even make that decision on? I chose 5 just because.
 cellSizeHeight = "5"
 numRows = ""  # Leave blank, as we have set cellSize
 numColumns = "" # Leave blank, as we have set cellSize
@@ -79,13 +81,11 @@ arcpy.CreateFishnet_management(outFeatureClass, originCoordinate, yAxisCoordinat
 
 print("Fishnet grid created successfully!")
 
-if arcpy.Exists(outFeatureClass):
-    print("Created Fishnet file successfully!")
 
 # Spatial Join to join the fishnet to observed points.
-target_features = "Species_Fishnet.shp"  # e.g., fishnet grid
-join_features = "merged_species_output.shp"      # point data
-out_feature_class = "species_heatmap.shp"         # output heatmap
+target_features = "Species_Fishnet.shp"  # fishnet grid
+join_features = "merged_species_output.shp"  # point data
+out_feature_class = "species_heatmap.shp"  # output heatmap
 
 # Perform spatial join
 arcpy.SpatialJoin_analysis(target_features, join_features, out_feature_class,
