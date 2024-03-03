@@ -78,23 +78,23 @@ arcpy.CreateFishnet_management(outFeatureClass, originCoordinate, yAxisCoordinat
                                "#", "POLYGON")
 
 print("Fishnet grid created successfully!")
-#
-# if arcpy.Exists(outFeatureClass):
-#     print("Created Fishnet file successfully!")
 
-# # Spatial Join to join the fishnet to observed points.
-# target_features = "Species_Fishnet.shp"  # e.g., fishnet grid
-# join_features = "merged_species_output.shp"      # point data
-# out_feature_class = "species_heatmap.shp"         # output heatmap
-#
-# # Perform spatial join
-# arcpy.SpatialJoin_analysis(target_features, join_features, out_feature_class,
-#                            join_operation="JOIN_ONE_TO_ONE",
-#                            join_type="KEEP_ALL",
-#                            match_option="INTERSECT",
-#                            search_radius="",
-#                            distance_field_name="")
-# print("Polar bear den and otter moms and pups heatmap created successfully!")
+if arcpy.Exists(outFeatureClass):
+    print("Created Fishnet file successfully!")
+
+# Spatial Join to join the fishnet to observed points.
+target_features = "Species_Fishnet.shp"  # e.g., fishnet grid
+join_features = "merged_species_output.shp"      # point data
+out_feature_class = "species_heatmap.shp"         # output heatmap
+
+# Perform spatial join
+arcpy.SpatialJoin_analysis(target_features, join_features, out_feature_class,
+                           join_operation="JOIN_ONE_TO_ONE",
+                           join_type="KEEP_ALL",
+                           match_option="INTERSECT",
+                           search_radius="",
+                           distance_field_name="")
+print("Polar bear den and otter moms and pups heatmap created successfully!")
 
 # if arcpy.Exists(out_feature_class):
 #     print("Created Heatmap file successfully!")
