@@ -54,7 +54,7 @@ print("Extent:", XMin, XMax, YMin, YMax)
 if arcpy.Exists(saved_Layer):
     print("Merged species shapefile created successfully!")
 
-# Now that the shapefile is saved and we have its extent, we can proceed with creating the fishnet grid
+# Now that the shapefile is saved, and we have its extent, we can proceed with creating the fishnet grid
 
 arcpy.env.outputCoordinateSystem = arcpy.SpatialReference(4326)
 
