@@ -15,7 +15,7 @@ list_b = ['dog', 'hamster', 'snake']
 
 duplicates = set(list_a).intersection(list_b)
 
-print(duplicates)
+print("Items present in both lists:", list(duplicates))
 
-joinedlist = list(set(list_a + list_b))
-print(joinedlist)
+non_overlapping_items = set(list_a).symmetric_difference(list_b)
+print("Items that do no overlap in the lists:", list(non_overlapping_items))

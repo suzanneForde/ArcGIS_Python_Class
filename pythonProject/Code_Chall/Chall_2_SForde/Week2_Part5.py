@@ -6,46 +6,22 @@
 # and compute the Scrabble word score for that word
 # (Scrabble is a word game, where players make words from letters, each letter is worth a point value),
 # steal this code from the internet, format it and make it work:
-#
-# letter_scores = {
-#     "aeioulnrst": 1,
-#     "dg": 2,
-#     "bcmp": 3,
-#     "fhvwy": 4,
-#     "k": 5,
-#     "jx": 8,
-#     "qz": 10
-# }
-# ###
-#
-# scores = {
-#     "aeioulnrst": 1,
-#     "gd": 2,
-#     "bcmp": 3,
-#     "fhvwy": 4,
-#     "k": 5,
-#     "jx": 8,
-#     "qz": 10,
-# }
-# print('Please enter a word.')
-# word = input()
-#
+###
 
-cnt = sum(scores[char] for char in word)
+
+letter_scores = {
+    "aeioulnrst": 1,
+    "dg": 2,
+    "bcmp": 3,
+    "fhvwy": 4,
+    "k": 5,
+    "jx": 8,
+    "qz": 10
+}
+
+print('Please enter a word:')
+word = input().lower()
+
+cnt = sum(score for chars, score in letter_scores.items() for c in word if c in chars)
 print(f'{word} is worth {cnt} points.')
-
-
-
-
-#
-
-
-
-
-
-
-
-
-
-
 
