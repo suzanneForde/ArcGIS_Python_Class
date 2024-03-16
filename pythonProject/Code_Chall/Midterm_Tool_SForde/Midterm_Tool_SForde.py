@@ -1,6 +1,6 @@
 
 # For this midterm tool, I decided to conduct a proximity analysis of libraries near 100 feet of schools in Providence.
-# 
+#
 
 
 
@@ -10,10 +10,19 @@ import os
 # Setting up the workspace and file paths
 arcpy.env.workspace = r'C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Midterm_Tool_SForde\School_Library_Data'
 
+# setting coordinate system
+factory_code = 3438  # NAD 1983 State Plane Rhode Island FIPS 3800 (US Feet)
+coordinate_system = arcpy.SpatialReference(factory_code)
+
 # Paths to provided data files
 School_shapefile = "FACILITY_Schools_pk12_2023.shp"
 Library_shapefile = "FACILITY_Public_Libraries_2021.shp"
 state_boundary_shapefile = "Municipalities_(1997).shp"
+
+# defining projection for each dataset
+arcpy.management.DefineProjection(School_shapefile, coordinate_system)
+arcpy.management.DefineProjection(Library_shapefile, coordinate_system)
+arcpy.management.DefineProjection(state_boundary_shapefile, coordinate_system)
 
 # Output folder paths for results
 output_folder = "output_data"
@@ -57,7 +66,7 @@ print("Data extracted within Providence boundary successfully.")
 
 print("Step 3: Buffering schools within Providence...")
 # buffering schools
-arcpy.Buffer_analysis(schools_in_providence, schools_buffered, "100 Meters")
+arcpy.Buffer_analysis(schools_in_providence, schools_buffered, "1.5 miles")
 print("Schools buffered successfully.")
 
 print("Step 4: Performing intersection with libraries...")

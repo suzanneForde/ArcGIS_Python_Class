@@ -5,46 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23e469c6-b1ad-4f66-9af3-d3e59666a3fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Providence_boundary.cpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Providence_boundary.dbf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Providence_boundary.prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Providence_boundary.sbn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Providence_boundary.sbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Providence_boundary.shp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Providence_boundary.shp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Providence_boundary.shx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_buffered.cpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_buffered.dbf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_buffered.prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_buffered.sbn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_buffered.sbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_buffered.shp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_buffered.shp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_buffered.shx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_in_Providence.cpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_in_Providence.dbf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_in_Providence.prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_in_Providence.sbn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_in_Providence.sbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_in_Providence.shp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_in_Providence.shp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_in_Providence.shx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_libraries_intersections.cpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_libraries_intersections.dbf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_libraries_intersections.prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_libraries_intersections.sbn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_libraries_intersections.sbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_libraries_intersections.shp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_libraries_intersections.shp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_libraries_intersections.shx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Species_Data/Species_Fishnet.dbf" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Species_Data/Species_Fishnet.dbf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Species_Data/Species_Fishnet.shp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Species_Data/Species_Fishnet.shp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Species_Data/merged_species_output.dbf" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Species_Data/merged_species_output.dbf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Species_Data/merged_species_output.shp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Species_Data/merged_species_output.shp.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Species_Data/species_heatmap.dbf" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Species_Data/species_heatmap.dbf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Species_Data/species_heatmap.shp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Species_Data/species_heatmap.shp.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/Midterm_Tool_SForde.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/Midterm_Tool_SForde.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/School_Library_Data/FACILITY_Public_Libraries_2021.prj" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/School_Library_Data/FACILITY_Public_Libraries_2021.prj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/School_Library_Data/FACILITY_Public_Libraries_2021.shp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/School_Library_Data/FACILITY_Public_Libraries_2021.shp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/School_Library_Data/FACILITY_Schools_pk12_2023.prj" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/School_Library_Data/FACILITY_Schools_pk12_2023.prj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/School_Library_Data/FACILITY_Schools_pk12_2023.shp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/School_Library_Data/FACILITY_Schools_pk12_2023.shp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/School_Library_Data/Municipalities_(1997).prj" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/School_Library_Data/Municipalities_(1997).prj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Providence_boundary.dbf" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Providence_boundary.dbf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Providence_boundary.prj" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Providence_boundary.prj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Providence_boundary.shp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Providence_boundary.shp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_buffered.dbf" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_buffered.dbf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_buffered.prj" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_buffered.prj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_buffered.shp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_buffered.shp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_in_Providence.dbf" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_in_Providence.dbf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_in_Providence.prj" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_in_Providence.prj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_in_Providence.shp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_in_Providence.shp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_libraries_intersections.dbf" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_libraries_intersections.dbf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_libraries_intersections.prj" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_libraries_intersections.prj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_libraries_intersections.shp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_libraries_intersections.shp.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +44,7 @@
     <setting file="file://$PROJECT_DIR$/Class_02/Week2_Part1.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
