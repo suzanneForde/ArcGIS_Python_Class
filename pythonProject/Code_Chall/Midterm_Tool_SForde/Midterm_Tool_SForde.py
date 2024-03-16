@@ -29,8 +29,16 @@ arcpy.SelectLayerByAttribute_management("state_boundary_layer", "NEW_SELECTION",
 arcpy.CopyFeatures_management("state_boundary_layer", providence_boundary)
 
 # extracting data within Providence boundary
-arcpy.MakeFeatureLayer_management()
+arcpy.MakeFeatureLayer_management(School_shapefile, "schools_layer")
+arcpy.MakeFeatureLayer_management(providence_boundary, "providence_layer")
+arcpy.SelectLayerByLocation_management("schools_layer", "INTERSECT", "providence_layer")
+arcpy.CopyFeatures_management("schools_layer", schools_in_providence)
+
+# buffering schools
+arcpy.Buffer_analysis(schools_in_providence, schools_buffered, "100 Meters")
+
+# intersecting buffered schools with libraries
+arcpy.Intersect_analysis([schools_buffered, Library_shapefile], schools_library_intersections)
 
 
-
-
+print("Process completed successfully.")
