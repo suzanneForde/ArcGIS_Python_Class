@@ -38,7 +38,8 @@ if not os.path.exists(output_folder):
 else:
     print("Output folder already exists.")
 
-# Checking attribute table for the Rhode Island shapefile.
+# Checking attribute table for the Rhode Island shapefile because I was having trouble creating a shapefile output for Providence.
+# The data existed but would not display in ArcGIS
 fields = arcpy.ListFields(state_boundary_shapefile)
 
 if fields:
@@ -57,7 +58,6 @@ if fields:
 else:
     print("Attribute table does not exist for the shapefile.")
 
-
 providence_boundary = os.path.join(output_folder, "Providence_boundary.shp")
 libraries_buffered = os.path.join(output_folder, "Libraries_buffered.shp")
 bus_stops_in_buffer = os.path.join(output_folder, "Bus_Stops_in_Buffer.shp")
@@ -75,7 +75,7 @@ print("Step 1: Creating Providence boundary...")
 arcpy.MakeFeatureLayer_management(state_boundary_shapefile, "state_boundary_layer")
 
 # Selecting features with the desired attribute
-arcpy.SelectLayerByAttribute_management("state_boundary_layer", "NEW_SELECTION", "NAME = 'Providence'")
+arcpy.SelectLayerByAttribute_management("state_boundary_layer", "NEW_SELECTION", "UPPER(NAME) = 'PROVIDENCE'")
 
 # Creating a new feature class with the selected features
 arcpy.FeatureClassToFeatureClass_conversion("state_boundary_layer", output_folder, "Providence_boundary.shp")
@@ -93,4 +93,45 @@ arcpy.SelectLayerByLocation_management("bus_stops_layer", "WITHIN_A_DISTANCE", l
 arcpy.CopyFeatures_management("bus_stops_layer", bus_stops_in_buffer)
 print("Bus stops within 1320 feet of buffered libraries selected successfully.")
 
-print("Process completed successfully.")
+print("Step 4: Selecting libraries and bus stops within Providence boundary...")
+
+# Creating Providence boundary feature layer
+arcpy.MakeFeatureLayer_management(providence_boundary, "providence_boundary_layer")
+
+# Creating feature layers for buffered libraries and bus stops
+arcpy.MakeFeatureLayer_management(libraries_buffered, "libraries_buffered_layer")
+arcpy.MakeFeatureLayer_management(bus_stops_in_buffer, "bus_stops_in_buffer_layer")
+
+# Selecting features within Providence boundary
+arcpy.SelectLayerByLocation_management("libraries_buffered_layer", "COMPLETELY_WITHIN", "providence_boundary_layer")
+arcpy.SelectLayerByLocation_management("bus_stops_in_buffer_layer", "COMPLETELY_WITHIN", "providence_boundary_layer")
+
+# Copying selected features to new shapefiles
+providence_libraries = os.path.join(output_folder, "Providence_libraries.shp")
+providence_bus_stops = os.path.join(output_folder, "Providence_bus_stops.shp")
+
+# Delete existing output files if they exist
+if arcpy.Exists(providence_libraries):
+    arcpy.Delete_management(providence_libraries)
+if arcpy.Exists(providence_bus_stops):
+    arcpy.Delete_management(providence_bus_stops)
+
+# Copy features to new shapefiles
+arcpy.CopyFeatures_management("libraries_buffered_layer", providence_libraries)
+arcpy.CopyFeatures_management("bus_stops_in_buffer_layer", providence_bus_stops)
+
+print("Features within Providence boundary selected successfully.")
+
+print("Final features for map creation are: Providence_boundary.shp, Providence_libraries.shp, and Providence_bus_stops.shp")
+
+print("The following bus stop numbers are those that are within 1320 feet of Providence libraries.")
+
+# Get bus stop numbers (Route) within the buffer
+bus_stop_numbers = set()  # Using a set to store unique bus stop numbers
+with arcpy.da.SearchCursor(providence_bus_stops, ["ROUTE"]) as cursor:
+    for row in cursor:
+        bus_stop_numbers.add(row[0])
+
+# Print unique bus stop numbers
+for bus_stop_number in bus_stop_numbers:
+    print(bus_stop_number)
