@@ -11,18 +11,22 @@ import os
 arcpy.env.workspace = r'C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Midterm_Tool_SForde\School_Library_Data'
 
 # setting coordinate system
-factory_code = 3438  # NAD 1983 State Plane Rhode Island FIPS 3800 (US Feet)
+factory_code = 4326  # == WGS 1984
 coordinate_system = arcpy.SpatialReference(factory_code)
 
 # Paths to provided data files
 School_shapefile = "FACILITY_Schools_pk12_2023.shp"
-Library_shapefile = "FACILITY_Public_Libraries_2021.shp"
+Library_shapefile = "Libraries.shp"
 state_boundary_shapefile = "Municipalities_(1997).shp"
 
 # defining projection for each dataset
 arcpy.management.DefineProjection(School_shapefile, coordinate_system)
 arcpy.management.DefineProjection(Library_shapefile, coordinate_system)
 arcpy.management.DefineProjection(state_boundary_shapefile, coordinate_system)
+
+# Setting the extent
+extent = arcpy.Describe(state_boundary_shapefile).extent
+arcpy.env.extent = extent
 
 # Output folder paths for results
 output_folder = "output_data"
@@ -66,7 +70,7 @@ print("Data extracted within Providence boundary successfully.")
 
 print("Step 3: Buffering schools within Providence...")
 # buffering schools
-arcpy.Buffer_analysis(schools_in_providence, schools_buffered, "1.5 miles")
+arcpy.Buffer_analysis(schools_in_providence, schools_buffered, "2 miles")
 print("Schools buffered successfully.")
 
 print("Step 4: Performing intersection with libraries...")
@@ -74,8 +78,5 @@ print("Step 4: Performing intersection with libraries...")
 arcpy.Intersect_analysis([schools_buffered, Library_shapefile], schools_library_intersections)
 print("Intersection with libraries completed successfully.")
 
-arcpy.Delete_management("schools_layer")
-arcpy.Delete_management("providence_layer")
-arcpy.Delete_management("state_boundary_layer")
 
 print("Process completed successfully.")
