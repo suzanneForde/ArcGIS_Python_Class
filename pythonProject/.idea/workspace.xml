@@ -5,6 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23e469c6-b1ad-4f66-9af3-d3e59666a3fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Providence_boundary.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Providence_boundary.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Providence_boundary.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Providence_boundary.sbn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Providence_boundary.sbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Providence_boundary.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Providence_boundary.shp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Providence_boundary.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_buffered.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_buffered.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_buffered.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_buffered.sbn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_buffered.sbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_buffered.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_buffered.shp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_buffered.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_in_Providence.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_in_Providence.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_in_Providence.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_in_Providence.sbn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_in_Providence.sbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_in_Providence.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_in_Providence.shp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_in_Providence.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_libraries_intersections.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_libraries_intersections.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_libraries_intersections.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_libraries_intersections.sbn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_libraries_intersections.sbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_libraries_intersections.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_libraries_intersections.shp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/output_data/Schools_libraries_intersections.shx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Species_Data/Species_Fishnet.dbf" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Species_Data/Species_Fishnet.dbf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Species_Data/Species_Fishnet.shp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Species_Data/Species_Fishnet.shp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Species_Data/merged_species_output.dbf" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Species_Data/merged_species_output.dbf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Species_Data/merged_species_output.shp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Species_Data/merged_species_output.shp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Species_Data/species_heatmap.dbf" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Species_Data/species_heatmap.dbf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Species_Data/species_heatmap.shp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Chall_5_SForde/Species_Data/species_heatmap.shp.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/Midterm_Tool_SForde.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/Midterm_Tool_SForde.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,42 +78,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.Find Areas Suitable for Development.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_0.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_0_Answers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_3 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_4 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week2_Part1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week2_Part2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week2_Part3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week2_Part4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week2_Part5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week3_Part1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week3_Part2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week3_Part3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week4_Part1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week5_FileConversion.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week5_Part1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/NRS528_Py_GIS&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.Find Areas Suitable for Development.executor": "Run",
+    "Python.Midterm_Tool_SForde.executor": "Run",
+    "Python.Step_0.executor": "Run",
+    "Python.Step_0_Answers.executor": "Run",
+    "Python.Step_1.executor": "Run",
+    "Python.Step_2 (1).executor": "Run",
+    "Python.Step_2.executor": "Run",
+    "Python.Step_3 (1).executor": "Run",
+    "Python.Step_3.executor": "Run",
+    "Python.Step_4 (1).executor": "Run",
+    "Python.Step_4.executor": "Run",
+    "Python.Step_5.executor": "Run",
+    "Python.Step_6.executor": "Run",
+    "Python.Week2_Part1.executor": "Run",
+    "Python.Week2_Part2.executor": "Run",
+    "Python.Week2_Part3.executor": "Run",
+    "Python.Week2_Part4.executor": "Run",
+    "Python.Week2_Part5.executor": "Run",
+    "Python.Week3_Part1.executor": "Run",
+    "Python.Week3_Part2.executor": "Run",
+    "Python.Week3_Part3.executor": "Run",
+    "Python.Week4_Part1.executor": "Run",
+    "Python.Week5_FileConversion.executor": "Run",
+    "Python.Week5_Part1.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/NRS528_Py_GIS",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
-  <component name="RunManager" selected="Python.Week5_Part1">
+}]]></component>
+  <component name="RunManager" selected="Python.Midterm_Tool_SForde">
     <configuration name="Find Areas Suitable for Development" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -97,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Step_0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Midterm_Tool_SForde" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,11 +146,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Class_06" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_06/Step_0.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code_Chall/Midterm_Tool_SForde/Midterm_Tool_SForde.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,11 +273,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Midterm_Tool_SForde" />
         <item itemvalue="Python.Week5_Part1" />
         <item itemvalue="Python.Week5_FileConversion" />
         <item itemvalue="Python.Step_2" />
         <item itemvalue="Python.Find Areas Suitable for Development" />
-        <item itemvalue="Python.Step_0" />
       </list>
     </recent_temporary>
   </component>
