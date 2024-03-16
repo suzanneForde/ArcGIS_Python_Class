@@ -12,15 +12,21 @@
 # Write this in one line of Python (you do not need to append to a list just print the output).
 ###
 
+# Define list
 my_list = [1, 2, 3, 6, 8, 12, 20, 32, 46, 85]
 print(my_list)
 
+# Create empty list to store elements less than 5
 new_list = []
+
+# Iterate over each element in the original list
 for i in my_list:
-    if i < 5:
+    # Check if the element is less than 5
+    if i < 5:  # If element is less than 5, append to new list
         new_list.append(i)
 print(new_list)
 
 
+# Delete elements from index 3 to 85
 del my_list[3:85]
 print(my_list)

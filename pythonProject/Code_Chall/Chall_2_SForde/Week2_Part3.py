@@ -8,31 +8,18 @@
 # (hint, you might want to "split" this into a list by a white space: " ").
 ###
 
+# Define string
 s = ('hi dee hi how are you mr dee')
 
+# Split string into a list of words
 x = s.split()
 print(x)
 
+# Iterate over each word in the list
 for item in x:
+    # Print each word along with its count in the list
     print(str(item) + " = " + str(x.count(item)))
 
-hi = x.count('hi')
-print(hi)
-
-dee = x.count('dee')
-print(dee)
-
-how = x.count('how')
-print(how)
-
-are = x.count('are')
-print(are)
-
-you = x.count('you')
-print(you)
-
-mr = x.count('mr')
-print(mr)
 
 
 

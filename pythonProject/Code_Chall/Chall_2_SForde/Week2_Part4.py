@@ -10,10 +10,15 @@
 # print "Your age is " + str(age)
 ###
 
-print('What is your age?')
-age = int(input())
 
+# Prompt user to input their age
+print('What is your age?')
+age = int(input()) # Convert input age to integer
+
+# Define retirement age
 retire_age = 65
+
+# Calculate number of years until retirement
 result = int(retire_age) - int(age)
 print("You will retire " + str(result) + " years. ")
 
