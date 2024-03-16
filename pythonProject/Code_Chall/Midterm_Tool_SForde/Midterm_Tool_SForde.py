@@ -15,7 +15,7 @@ factory_code = 4326  # == WGS 1984
 coordinate_system = arcpy.SpatialReference(factory_code)
 
 # Paths to provided data files
-School_shapefile = "FACILITY_Schools_pk12_2023.shp"
+School_shapefile = "Schools.shp"
 Library_shapefile = "Libraries.shp"
 state_boundary_shapefile = "Municipalities_(1997).shp"
 
