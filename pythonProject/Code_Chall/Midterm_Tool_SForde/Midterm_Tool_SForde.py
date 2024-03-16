@@ -1,6 +1,9 @@
 
-# For this midterm tool, I decided to conduct a proximity analysis of libraries near 100 feet of schools in Providence.
-#
+# For this midterm tool, I originally decided to conduct a proximity analysis of libraries near 100 feet of schools in Providence.
+# However, this was too challenging because it seemed the data files I downloaded from RIGIS were corrupted.
+# Points for schools would not show up on ArcGIS even though the shapefiles contained data (in the attribute tables)
+# Instead I conducted a proximity analysis of bus stops within 1 mile of libraries.
+# This information could be used to create a bus guide for local residents in need of books or other materials.
 
 
 
@@ -35,48 +38,59 @@ if not os.path.exists(output_folder):
 else:
     print("Output folder already exists.")
 
+# Checking attribute table for the Rhode Island shapefile.
+fields = arcpy.ListFields(state_boundary_shapefile)
+
+if fields:
+    print("Attribute table exists for the shapefile.")
+
+    # Access the fields in the attribute table
+    print("Field names and types:")
+    for field in fields:
+        print(f"{field.name}: {field.type}")
+
+    # Access other attribute table properties using Describe
+    desc = arcpy.Describe(state_boundary_shapefile)
+    print("Shape type:", desc.shapeType)
+    print("Spatial reference:", desc.spatialReference.name)
+
+else:
+    print("Attribute table does not exist for the shapefile.")
+
+
 providence_boundary = os.path.join(output_folder, "Providence_boundary.shp")
-schools_in_providence = os.path.join(output_folder, "Stops_in_Providence.shp")
-schools_buffered = os.path.join(output_folder, "Stops_buffered.shp")
-schools_library_intersections = os.path.join(output_folder, "Stops_libraries_intersections.shp")
+libraries_buffered = os.path.join(output_folder, "Libraries_buffered.shp")
+bus_stops_in_buffer = os.path.join(output_folder, "Bus_Stops_in_Buffer.shp")
 
 # if output file already exists, delete
-output_files = [providence_boundary, schools_in_providence, schools_buffered, schools_library_intersections]
+output_files = [providence_boundary, libraries_buffered, bus_stops_in_buffer]
 
 for file in output_files:
     if arcpy.Exists(file):
         arcpy.Delete_management(file)
         print(f"{file} already exists. Deleting the existing file...")
 
-
 print("Step 1: Creating Providence boundary...")
-# creating a feature layer from state boundary shapefile
+# Create a feature layer only once
 arcpy.MakeFeatureLayer_management(state_boundary_shapefile, "state_boundary_layer")
 
-# selecting Providence from the state boundary
+# Selecting features with the desired attribute
 arcpy.SelectLayerByAttribute_management("state_boundary_layer", "NEW_SELECTION", "NAME = 'Providence'")
 
-# copying the selected features to create the Providence boundary shapefile
-arcpy.CopyFeatures_management("state_boundary_layer", providence_boundary)
+# Creating a new feature class with the selected features
+arcpy.FeatureClassToFeatureClass_conversion("state_boundary_layer", output_folder, "Providence_boundary.shp")
 print("Providence boundary created successfully.")
 
-print("Step 2: Extracting data within Providence boundary...")
-# extracting data within Providence boundary
-arcpy.MakeFeatureLayer_management(BusStop_shapefile, "stops_layer")
-arcpy.MakeFeatureLayer_management(providence_boundary, "providence_layer")
-arcpy.SelectLayerByLocation_management("stops_layer", "INTERSECT", "providence_layer")
-arcpy.CopyFeatures_management("stops_layer", schools_in_providence)
-print("Data extracted within Providence boundary successfully.")
+print("Step 2: Buffering libraries...")
+# buffering libraries
+arcpy.Buffer_analysis(Library_shapefile, libraries_buffered, "1320 feet")
+print("Libraries buffered successfully.")
 
-print("Step 3: Buffering bus stops within Providence...")
-# buffering schools
-arcpy.Buffer_analysis(schools_in_providence, schools_buffered, "20 feet")
-print("Bus stops buffered successfully.")
-
-print("Step 4: Performing intersection with libraries...")
-# intersecting buffered schools with libraries
-arcpy.Intersect_analysis([schools_buffered, Library_shapefile], schools_library_intersections)
-print("Intersection with libraries completed successfully.")
-
+print("Step 3: Selecting bus stops within 1320 feet of buffered libraries...")
+# Selecting bus stops within 1320 feet of buffered libraries
+arcpy.MakeFeatureLayer_management(BusStop_shapefile, "bus_stops_layer")
+arcpy.SelectLayerByLocation_management("bus_stops_layer", "WITHIN_A_DISTANCE", libraries_buffered, "1320 feet")
+arcpy.CopyFeatures_management("bus_stops_layer", bus_stops_in_buffer)
+print("Bus stops within 1320 feet of buffered libraries selected successfully.")
 
 print("Process completed successfully.")
