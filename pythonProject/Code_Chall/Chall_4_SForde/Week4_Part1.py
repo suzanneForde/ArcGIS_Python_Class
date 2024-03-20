@@ -14,19 +14,22 @@
 # Ensure that the code will run on my machine with only a single change to a single variable (i.e. a base folder location).
 
 
+# For this coding challenge I performed an intersect analysis on roads in Rhode Island that intersect with public water reservoirs
+# The information collected from this analysis could be used to assess and mitigate non-point runoff into reservoirs (example: Scituate Reservoir)
+
 import arcpy
 import os
 
 # base folder pathing
 script_dir = os.path.dirname(os.path.abspath(__file__))
-workspace = os.path.join(script_dir, "workspace_04")
+workspace = os.path.join(script_dir, "Data_folder_Chall_4")
 
 # target and join feature paths
-target_feature = os.path.join(workspace, "RIPTA_Bus_Stops.shp")
+target_feature = os.path.join(workspace, "Public_Water_Reservoirs.shp")
 join_feature = os.path.join(workspace, "RIDOT_Roads__2016_.shp")
 
 # output feature class
-output_feature = os.path.join(workspace, "bus_roads_join.shp")
+output_feature = os.path.join(workspace, "water_roads_join.shp")
 
 # check if  output feature class already exists, delete if it does, this allows us to run the code more than once
 try:
