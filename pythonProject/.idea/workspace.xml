@@ -6,26 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="23e469c6-b1ad-4f66-9af3-d3e59666a3fb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/Week4_Part1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/Week4_Part1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/RIDOT_Roads_(2016).xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/RIDOT_Roads__2016_.cpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/RIDOT_Roads__2016_.dbf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/RIDOT_Roads__2016_.prj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/RIDOT_Roads__2016_.shp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/RIDOT_Roads__2016_.shx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/RIPTA_Bus_Stops.cpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/RIPTA_Bus_Stops.dbf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/RIPTA_Bus_Stops.prj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/RIPTA_Bus_Stops.shp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/RIPTA_Bus_Stops.shx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/bus_roads_join.cpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/bus_roads_join.dbf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/bus_roads_join.prj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/bus_roads_join.sbn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/bus_roads_join.sbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/bus_roads_join.shp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/bus_roads_join.shp.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/workspace_04/bus_roads_join.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class_07/Step_0.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class_07/Step_0.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +77,29 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Week4_Part1">
+  <component name="RunManager" selected="Python.Step_0">
+    <configuration name="Step_0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Class_07" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_07/Step_0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Step_4" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -209,28 +212,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Week2_Part5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code_Chall/Chall_2_SForde" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code_Chall/Chall_2_SForde/Week2_Part5.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Week4_Part1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -255,11 +236,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Step_0" />
         <item itemvalue="Python.Week4_Part1" />
         <item itemvalue="Python.Week2_Part1" />
         <item itemvalue="Python.Week2_Part2 (1)" />
         <item itemvalue="Python.Week2_Part3" />
-        <item itemvalue="Python.Week2_Part5" />
       </list>
     </recent_temporary>
   </component>
