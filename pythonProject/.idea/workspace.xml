@@ -5,8 +5,94 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23e469c6-b1ad-4f66-9af3-d3e59666a3fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_csv_shp_output.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_csv_shp_output.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_csv_shp_output.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_csv_shp_output.sbn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_csv_shp_output.sbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_csv_shp_output.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_csv_shp_output.shp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_csv_shp_output.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_dianthus.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_dianthus_csv_shp_output.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_dianthus_csv_shp_output.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_dianthus_csv_shp_output.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_dianthus_csv_shp_output.sbn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_dianthus_csv_shp_output.sbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_dianthus_csv_shp_output.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_dianthus_csv_shp_output.shp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_dianthus_csv_shp_output.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_pertusum.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_pertusum_csv_shp_output.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_pertusum_csv_shp_output.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_pertusum_csv_shp_output.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_pertusum_csv_shp_output.sbn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_pertusum_csv_shp_output.sbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_pertusum_csv_shp_output.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_pertusum_csv_shp_output.shp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_pertusum_csv_shp_output.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_striatum.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_striatum_csv_shp_output.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_striatum_csv_shp_output.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_striatum_csv_shp_output.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_striatum_csv_shp_output.sbn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_striatum_csv_shp_output.sbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_striatum_csv_shp_output.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_striatum_csv_shp_output.shp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/Desmophyllum_striatum_csv_shp_output.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/all_species_shp_output.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/all_species_shp_output.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/all_species_shp_output.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/all_species_shp_output.sbn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/all_species_shp_output.sbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/all_species_shp_output.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/all_species_shp_output.shp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/all_species_shp_output.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/info/arc.dir" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/info/arc0000.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/info/arc0000.nit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/info/arc0001.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/info/arc0001.nit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/info/arc0002.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/info/arc0002.nit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/info/arc0003.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/info/arc0003.nit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/info/arc0004.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/info/arc0004.nit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/info/arc0005.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/info/arc0005.nit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/raster1.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/raster1.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/raster1/dblbnd.adf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/raster1/hdr.adf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/raster1/prj.adf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/raster1/sta.adf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/raster1/vat.adf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/raster1/w001001.adf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/raster1/w001001x.adf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/raster2.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/raster2.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/raster2/dblbnd.adf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/raster2/hdr.adf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/raster2/prj.adf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/raster2/sta.adf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/raster2/vat.adf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/raster2/w001001.adf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/raster2/w001001x.adf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/tif1.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/tif1.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/tif1.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/tif1.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/tif2.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/tif2.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/tif2.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/tif2.tif.ovr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/tif3.tfw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/tif3.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/tif3.tif.aux.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_07/Step_1/tif3.tif.ovr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class_07/Step_0.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class_07/Step_0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class_07/Step_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class_07/Step_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +163,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Step_0">
+  <component name="RunManager" selected="Python.Step_1">
     <configuration name="Step_0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -92,6 +178,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_07/Step_0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Step_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Class_07" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_07/Step_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,28 +298,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Week2_Part3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code_Chall/Chall_2_SForde" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code_Chall/Chall_2_SForde/Week2_Part3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Week4_Part1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -236,11 +322,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Step_1" />
         <item itemvalue="Python.Step_0" />
         <item itemvalue="Python.Week4_Part1" />
         <item itemvalue="Python.Week2_Part1" />
         <item itemvalue="Python.Week2_Part2 (1)" />
-        <item itemvalue="Python.Week2_Part3" />
       </list>
     </recent_temporary>
   </component>
