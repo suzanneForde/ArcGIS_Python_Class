@@ -10,36 +10,34 @@
 import os
 import arcpy
 import csv
+import glob
 
-input_directory = "CHANGE TO YOUR DIR"
-keep_temp_files = True
-
-# In this example, I show you how to use os.path.join to create directory names, which can be used to
-# test if the directory exists, and if not, create it.
-
-if not os.path.exists(os.path.join(input_directory, "species_files")):
-    os.mkdir(os.path.join(input_directory, "species_files"))
-if not os.path.exists(os.path.join(input_directory, "temporary_files")):
-    os.mkdir(os.path.join(input_directory, "temporary_files"))
-if not os.path.exists(os.path.join(input_directory, "outputs")):
-    os.mkdir(os.path.join(input_directory, "outputs"))
-
-# Deletion of the files can also be controlled using a True or False variable. In this case, I only delete
-# the temporary_files and species_files directories. I use arcpy to do this, as if you are generating files
-# through arcpy, other methods such as shutil.rmtree will fail due to arcpy file locks.
-
-if keep_temp_files == False:
-    arcpy.Delete_management(os.path.join(input_directory, "species_files"))
-    arcpy.Delete_management(os.path.join(input_directory, "temporary_files"))
+#
+# # In this example, I show you how to use os.path.join to create directory names, which can be used to
+# # test if the directory exists, and if not, create it.
+#
+# if not os.path.exists(os.path.join(input_directory, "output_files")):
+#     os.mkdir(os.path.join(input_directory, "output_files"))
+# if not os.path.exists(os.path.join(input_directory, "temporary_files")):
+#     os.mkdir(os.path.join(input_directory, "temporary_files"))
+# if not os.path.exists(os.path.join(input_directory, "outputs")):
+#     os.mkdir(os.path.join(input_directory, "outputs"))
+#
+# # Deletion of the files can also be controlled using a True or False variable. In this case, I only delete
+# # the temporary_files and species_files directories. I use arcpy to do this, as if you are generating files
+# # through arcpy, other methods such as shutil.rmtree will fail due to arcpy file locks.
+#
+# if keep_temp_files == False:
+#     arcpy.Delete_management(os.path.join(input_directory, "species_files"))
+#     arcpy.Delete_management(os.path.join(input_directory, "temporary_files"))
 
 # Task 1 - Using the code above create a temporary folder and an output folder, and adjust the code below to store the
 # generated CSV files in the temporary folder, and the generated shapefiles in the output folder. Then delete
 # the temporary file folder.
 
 # USERS EDIT THIS STUFF HERE
-input_directory = r"C:\Data\Course_ArcGIS_Python\Classes\07_File_Handling\DataFolder_Step_2"
+input_directory = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Class_07"
 data_file = "Step_2.csv"
-
 keep_temp_files = False
 
 #DO NOT DO ANUTHING TO THE BELOW
@@ -51,7 +49,7 @@ if not os.path.exists(os.path.join(input_directory, "outputs")):
 
 # Step 1: Lets determine our species
 species_list = []
-with open("CHANGE TO YOUR DIR AND FILE") as species_csv:
+with open(os.path.join(input_directory, data_file)) as species_csv:
     header_line = next(species_csv)
     for row in csv.reader(species_csv):
         try: # Using try/except saves us if there is a line with no data in the file
@@ -64,12 +62,13 @@ print("..There are: " + str(len(species_list)) + " species to process..")
 # Step 2: Lets split the files
 if len(species_list) > 1:
     for s in species_list:
+        print("The species being processed is:" + s)
         s_count = 1
-        with open("CHANGE TO YOUR DIR AND FILE") as species_csv:
+        with open(os.path.join(input_directory, data_file)) as species_csv:
             for row in csv.reader(species_csv):
                 if row[0] == s:
                     if s_count == 1:
-                        file = open("CHANGE TO YOUR DIR AND FILE", "w")
+                        file = open(os.path.join(input_directory, "temporary_files", s + ".csv"), "w")
                         file.write(header_line)
                         s_count = 0
                     #make well formmated line
@@ -79,9 +78,9 @@ if len(species_list) > 1:
 
 
 # Step 3: Convert those files into Shapefiles
-os.chdir("CHANGE TO YOUR DIR AND FILE")# same as env.workspace
-arcpy.env.workspace = os.path.join("CHANGE TO YOUR DIR AND FILE")
-species_file_list = glob.glob("*.csv")# Find all CSV files... Now you will get an error because I have not imported..??
+os.chdir(os.path.join(input_directory, "temporary_files")) # same as env.workspace
+arcpy.env.workspace = os.path.join(input_directory, "temporary_files")
+species_file_list = glob.glob("*.csv") # Find all CSV files... Now you will get an error because I have not imported..??
 
 count = 0
 
@@ -98,12 +97,12 @@ for species_file in species_file_list:
     spRef = arcpy.SpatialReference(4326)  # 4326 == WGS 1984
 
     lyr = arcpy.MakeXYEventLayer_management(in_Table, x_coords, y_coords, out_Layer, spRef, z_coords)
-    arcpy.CopyFeatures_management(lyr, "CHANGE TO YOUR DIR AND FILE")
+    arcpy.CopyFeatures_management(lyr, os.path.join(input_directory, "outputs", saved_Layer))
     count = count + 1
     arcpy.Delete_management(lyr)
 
 
 if keep_temp_files == False:
-    arcpy.Delete_management("CHANGE TO YOUR DIR")
+    arcpy.Delete_management(os.path.join(input_directory, "temporary_files"))
 
 
