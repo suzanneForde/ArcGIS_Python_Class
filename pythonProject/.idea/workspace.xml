@@ -5,7 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23e469c6-b1ad-4f66-9af3-d3e59666a3fb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Class_08/Step_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class_08/Step_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_5_Data/Places.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_5_Data/Places.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_5_Data/Places.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_5_Data/Places.sbn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_5_Data/Places.sbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_5_Data/Places.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_5_Data/Places.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_5_Data/RI_Roads.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_5_Data/RI_Roads.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_5_Data/RI_Roads.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_5_Data/RI_Roads.sbn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_5_Data/RI_Roads.sbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_5_Data/RI_Roads.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_5_Data/RI_Roads.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Code_Chall/Chall_8_SForde/Week8_Part1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class_08/Step_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class_08/Step_5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class_08/Step_5_Answers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class_08/Step_5_Answers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,29 +97,7 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Step_4 (1)">
-    <configuration name="Step_2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Class_08" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_08/Step_2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Step_5">
     <configuration name="Step_2_Answers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -214,6 +209,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Step_5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Class_08" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_08/Step_5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Week2_Part2" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -239,11 +256,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Step_5" />
         <item itemvalue="Python.Step_4 (1)" />
         <item itemvalue="Python.Step_4_Answers" />
         <item itemvalue="Python.Step_3" />
         <item itemvalue="Python.Step_2_Answers" />
-        <item itemvalue="Python.Step_2 (1)" />
       </list>
     </recent_temporary>
   </component>

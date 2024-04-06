@@ -9,18 +9,18 @@
 
 import arcpy
 
-# def describe_shp(input_shapefile):
-#
-#     if arcpy.Exists(input_shapefile):
-#         desc = arcpy.Describe(input_shapefile)
-#         print("Describing: " + str(input_shapefile))
-#         if desc.dataType == "ShapeFile":
-#             print("Feature Type:  " + desc.shapeType)
-#
-#         else:
-#             print("Input data not ShapeFile..")
-#     else:
-#         print("Dataset not found, please check the file path..")
+def describe_shp(input_shapefile):
+
+    if arcpy.Exists(input_shapefile):
+        desc = arcpy.Describe(input_shapefile)
+        print("Describing: " + str(input_shapefile))
+        if desc.dataType == "ShapeFile":
+            print("Feature Type:  " + desc.shapeType)
+
+        else:
+            print("Input data not ShapeFile..")
+    else:
+        print("Dataset not found, please check the file path..")
 
 
 def describe_shp(input_shapefile):
@@ -40,7 +40,7 @@ def describe_shp(input_shapefile):
     return shapetype, sprefname, spreftype
 
 
-input_shapefile = r"C:\Data\Course_ArcGIS_Python\Classes\08_Functions\DataFolder_Step_5_Data\RI_Roads.shp"
+input_shapefile = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Class_08\Step_5_Data\RI_Roads.shp"
 shapetype, sprefname, spreftype = describe_shp(input_shapefile)
 
 print(shapetype)
@@ -50,7 +50,27 @@ print(spreftype)
 
 # Task 1 - Using the Places.shp provided, extend the describe_shp function to include the following outputs: 1) Coordinate system used, 2) Coordinate system type
 # Hint: you can find these at https://pro.arcgis.com/en/pro-app/arcpy/functions/describe.htm, and print them out in a well formatted style.
+print("Task 1")
 
+import arcpy
+
+def describe_shp(input_shapefile):
+    desc = arcpy.Describe(input_shapefile)
+    print("Describing: " + str(input_shapefile))
+    if arcpy.Exists(input_shapefile):
+        if desc.dataType == "ShapeFile":
+            print("Feature Type:  " + desc.shapeType)
+            print("Coordinate System Type:  " + desc.spatialReference.type)
+            print("Coordinate System used:  " + desc.spatialReference.GCSName)
+        else:
+            print("Input data not ShapeFile..")
+    else:
+        print("Dataset not found, please check the file path..")
+
+
+input_shapefile = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Class_08\Step_5_Data\RI_Roads.shp"
+describe_shp(input_shapefile)
 
 # Task 2 - Run your function on the RI_Roads.shp dataset, use only 1 line of code.
-
+print("Task 2")
+describe_shp(r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Class_08\Step_5_Data\RI_Roads.shp")
