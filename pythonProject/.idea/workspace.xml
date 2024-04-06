@@ -5,40 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23e469c6-b1ad-4f66-9af3-d3e59666a3fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum dianthus_csv.cpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum dianthus_csv.dbf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum dianthus_csv.prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum dianthus_csv.sbn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum dianthus_csv.sbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum dianthus_csv.shp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum dianthus_csv.shp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum dianthus_csv.shx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum pertusum_csv.cpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum pertusum_csv.dbf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum pertusum_csv.prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum pertusum_csv.sbn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum pertusum_csv.sbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum pertusum_csv.shp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum pertusum_csv.shp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum pertusum_csv.shx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum striatum_csv.cpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum striatum_csv.dbf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum striatum_csv.prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum striatum_csv.sbn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum striatum_csv.sbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum striatum_csv.shp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum striatum_csv.shp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum striatum_csv.shx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum_csv.cpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum_csv.dbf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum_csv.prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum_csv.sbn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum_csv.sbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum_csv.shp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum_csv.shp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_07/outputs/Desmophyllum_csv.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/ALL_FILES.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_Answers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/Groundwater_Reservoirs.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/Groundwater_Reservoirs.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/Groundwater_Reservoirs.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/Groundwater_Reservoirs.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/Groundwater_Reservoirs.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/Groundwater_Reservoirs_-5934786070110135787.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/RIPDES_Sanitary_Waste_Sites.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/RIPDES_Sanitary_Waste_Sites.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/RIPDES_Sanitary_Waste_Sites.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/RIPDES_Sanitary_Waste_Sites.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/RIPDES_Sanitary_Waste_Sites.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/RIPDES_Sanitary_Waste_Sites_6056596062361509321.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_groundwater_reservoirs.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_groundwater_reservoirs.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_groundwater_reservoirs.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_groundwater_reservoirs.sbn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_groundwater_reservoirs.sbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_groundwater_reservoirs.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_groundwater_reservoirs.shp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_groundwater_reservoirs.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_sanitary_waste.cpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_sanitary_waste.dbf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_sanitary_waste.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_sanitary_waste.sbn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_sanitary_waste.sbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_sanitary_waste.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_sanitary_waste.shp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_sanitary_waste.shx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_1_Answers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_2_Answers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_3_Answers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_4_Answers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_5_Answers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Class_08/Step_5_Data.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class_07/Step_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class_07/Step_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,44 +81,67 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.Find Areas Suitable for Development.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Midterm_Tool_SForde.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_0.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_0_Answers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_3 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_4 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week2_Part1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week2_Part2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week2_Part2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week2_Part3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week2_Part4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week2_Part5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week3_Part1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week3_Part2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week3_Part3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week4_Part1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week5_FileConversion.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week5_Part1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/NRS528_Py_GIS&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.Find Areas Suitable for Development.executor": "Run",
+    "Python.Midterm_Tool_SForde.executor": "Run",
+    "Python.Step_0 (1).executor": "Run",
+    "Python.Step_0.executor": "Run",
+    "Python.Step_0_Answers.executor": "Run",
+    "Python.Step_1.executor": "Run",
+    "Python.Step_2 (1).executor": "Run",
+    "Python.Step_2.executor": "Run",
+    "Python.Step_3 (1).executor": "Run",
+    "Python.Step_3.executor": "Run",
+    "Python.Step_4 (1).executor": "Run",
+    "Python.Step_4.executor": "Run",
+    "Python.Step_5.executor": "Run",
+    "Python.Step_6.executor": "Run",
+    "Python.Week2_Part1.executor": "Run",
+    "Python.Week2_Part2 (1).executor": "Run",
+    "Python.Week2_Part2.executor": "Run",
+    "Python.Week2_Part3.executor": "Run",
+    "Python.Week2_Part4.executor": "Run",
+    "Python.Week2_Part5.executor": "Run",
+    "Python.Week3_Part1.executor": "Run",
+    "Python.Week3_Part2.executor": "Run",
+    "Python.Week3_Part3.executor": "Run",
+    "Python.Week4_Part1.executor": "Run",
+    "Python.Week5_FileConversion.executor": "Run",
+    "Python.Week5_Part1.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/NRS528_Py_GIS",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
-  <component name="RunManager" selected="Python.Step_2">
+}]]></component>
+  <component name="RunManager" selected="Python.Step_0 (1)">
+    <configuration name="Step_0 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Class_08" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_08/Step_0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Step_0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -199,28 +231,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Week2_Part1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code_Chall/Chall_2_SForde" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code_Chall/Chall_2_SForde/Week2_Part1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Week2_Part2" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -268,11 +278,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Step_0 (1)" />
         <item itemvalue="Python.Step_2" />
         <item itemvalue="Python.Step_1" />
         <item itemvalue="Python.Step_0" />
         <item itemvalue="Python.Week4_Part1" />
-        <item itemvalue="Python.Week2_Part1" />
       </list>
     </recent_temporary>
   </component>
