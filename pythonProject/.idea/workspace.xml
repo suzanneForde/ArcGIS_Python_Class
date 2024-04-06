@@ -5,49 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23e469c6-b1ad-4f66-9af3-d3e59666a3fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Class_08/ALL_FILES.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_Answers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/Groundwater_Reservoirs.cpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/Groundwater_Reservoirs.dbf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/Groundwater_Reservoirs.prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/Groundwater_Reservoirs.shp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/Groundwater_Reservoirs.shx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/Groundwater_Reservoirs_-5934786070110135787.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/RIPDES_Sanitary_Waste_Sites.cpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/RIPDES_Sanitary_Waste_Sites.dbf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/RIPDES_Sanitary_Waste_Sites.prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/RIPDES_Sanitary_Waste_Sites.shp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/RIPDES_Sanitary_Waste_Sites.shx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/RIPDES_Sanitary_Waste_Sites_6056596062361509321.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_groundwater_reservoirs.cpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_groundwater_reservoirs.dbf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_groundwater_reservoirs.prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_groundwater_reservoirs.sbn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_groundwater_reservoirs.sbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_groundwater_reservoirs.shp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_groundwater_reservoirs.shp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_groundwater_reservoirs.shx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_sanitary_waste.cpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_sanitary_waste.dbf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_sanitary_waste.prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_sanitary_waste.sbn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_sanitary_waste.sbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_sanitary_waste.shp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_sanitary_waste.shp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_0_data/buffered_sanitary_waste.shx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_1_Answers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_2_Answers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_3_Answers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_4_Answers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_5_Answers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_08/Step_5_Data.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class_08/Step_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class_08/Step_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +48,7 @@
     "Python.Step_0 (1).executor": "Run",
     "Python.Step_0.executor": "Run",
     "Python.Step_0_Answers.executor": "Run",
+    "Python.Step_1 (1).executor": "Run",
     "Python.Step_1.executor": "Run",
     "Python.Step_2 (1).executor": "Run",
     "Python.Step_2.executor": "Run",
@@ -119,7 +79,7 @@
     "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Step_0 (1)">
+  <component name="RunManager" selected="Python.Step_1 (1)">
     <configuration name="Step_0 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -156,6 +116,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_07/Step_0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Step_1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Class_08" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_08/Step_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -254,35 +236,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Week4_Part1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code_Chall/Chall_4_SForde" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code_Chall/Chall_4_SForde/Week4_Part1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Step_1 (1)" />
         <item itemvalue="Python.Step_0 (1)" />
         <item itemvalue="Python.Step_2" />
         <item itemvalue="Python.Step_1" />
         <item itemvalue="Python.Step_0" />
-        <item itemvalue="Python.Week4_Part1" />
       </list>
     </recent_temporary>
   </component>
