@@ -5,32 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23e469c6-b1ad-4f66-9af3-d3e59666a3fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Class_09/Step_2_Data/Places.cpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_09/Step_2_Data/Places.dbf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_09/Step_2_Data/Places.prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_09/Step_2_Data/Places.sbn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_09/Step_2_Data/Places.sbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_09/Step_2_Data/Places.shp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_09/Step_2_Data/Places.shx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_09/Step_3_Data/Spare_URI_Campus_Roads_OSM/URI_Campus_Roads_OSM.cpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_09/Step_3_Data/Spare_URI_Campus_Roads_OSM/URI_Campus_Roads_OSM.dbf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_09/Step_3_Data/Spare_URI_Campus_Roads_OSM/URI_Campus_Roads_OSM.prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_09/Step_3_Data/Spare_URI_Campus_Roads_OSM/URI_Campus_Roads_OSM.sbn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_09/Step_3_Data/Spare_URI_Campus_Roads_OSM/URI_Campus_Roads_OSM.sbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_09/Step_3_Data/Spare_URI_Campus_Roads_OSM/URI_Campus_Roads_OSM.shp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_09/Step_3_Data/Spare_URI_Campus_Roads_OSM/URI_Campus_Roads_OSM.shx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_09/Step_3_Data/URI_Campus_Roads_OSM.cpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_09/Step_3_Data/URI_Campus_Roads_OSM.dbf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_09/Step_3_Data/URI_Campus_Roads_OSM.prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_09/Step_3_Data/URI_Campus_Roads_OSM.sbn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_09/Step_3_Data/URI_Campus_Roads_OSM.sbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_09/Step_3_Data/URI_Campus_Roads_OSM.shp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class_09/Step_3_Data/URI_Campus_Roads_OSM.shx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class_09/Step_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class_09/Step_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class_09/Step_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class_09/Step_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class_09/Step_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class_09/Step_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class_09/Step_4_Answers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class_09/Step_4_Answers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_9_SForde/Chall_9_PyFile_SForde.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Chall_9_SForde/Chall_9_PyFile_SForde.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
