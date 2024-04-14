@@ -77,7 +77,7 @@ import arcpy, os
 from math import radians, sin, cos
 
 # Create an empty Shapefile
-arcpy.env.workspace = r"H:\NRS528_2024\1_Class_Files\Classes\09_Cursors"
+arcpy.env.workspace = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Class_09"
 
 # Set local variables
 out_path = arcpy.env.workspace

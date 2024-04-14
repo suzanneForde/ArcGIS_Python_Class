@@ -12,7 +12,7 @@
 
 import arcpy
 
-input_shp = r'H:\NRS528_2024\1_Class_Files\Classes\09_Cursors\Step_3_Data\URI_Campus_Roads_OSM.shp'
+input_shp = r'C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Class_09\Step_3_Data\URI_Campus_Roads_OSM.shp'
 
 fields = ['fclass', 'name', 'maxspeed']
 
@@ -27,21 +27,37 @@ with arcpy.da.SearchCursor(input_shp, fields, expression) as cursor:
         print(u'{0}, {1}, {2}'.format(row[0], row[1], row[2]))
 #
 # # # # Run the update
-# with arcpy.da.UpdateCursor(input_shp, fields, expression) as cursor:
-#     for row in cursor:
-#         row[2] = 25
-#         cursor.updateRow(row)
-#         print("Updated..." + str(row))
+with arcpy.da.UpdateCursor(input_shp, fields, expression) as cursor:
+    for row in cursor:
+        row[2] = 25
+        cursor.updateRow(row)
+        print("Updated..." + str(row))
 #
-# expression = arcpy.AddFieldDelimiters(input_shp, "fclass") + " = 'residential'" + " AND "
-# expression = expression + arcpy.AddFieldDelimiters(input_shp, "maxspeed") + " = 25"
-#
+expression = arcpy.AddFieldDelimiters(input_shp, "fclass") + " = 'residential'" + " AND "
+expression = expression + arcpy.AddFieldDelimiters(input_shp, "maxspeed") + " = 25"
+
 # # # Check, should return no results
-# with arcpy.da.SearchCursor(input_shp, fields, expression) as cursor:
-#     for row in cursor:
-#         print(u'{0}, {1}, {2}'.format(row[0], row[1], row[2]))
+with arcpy.da.SearchCursor(input_shp, fields, expression) as cursor:
+    for row in cursor:
+     print(u'{0}, {1}, {2}'.format(row[0], row[1], row[2]))
 
 # Task a - Due to students frequently abusing Segways, the University has set all 'paths' to a speed limit of
 # 10 mph. Update URI_Campus_Roads_OSM.shp.
 
+input_shp = 'Step_3_Data/URI_Campus_Roads_OSM.shp'
+fields = ['fclass', 'name', 'maxspeed']
+expression = arcpy.AddFieldDelimiters(input_shp, "fclass") + " = 'path'"
+with arcpy.da.UpdateCursor(input_shp, fields, expression) as cursor:
+    for row in cursor:
+        row[2] = 10
+        cursor.updateRow(row)
+        print("Updated...")
+
 # # Task b - Mooresfield Road has been reclassified to 40 mph, correct this in the data file.
+
+expression = arcpy.AddFieldDelimiters(input_shp, "name") + " = 'Mooresfield Road'"
+with arcpy.da.UpdateCursor(input_shp, fields, expression) as cursor:
+    for row in cursor:
+        row[2] = 40
+        cursor.updateRow(row)
+        print("Updated...")
