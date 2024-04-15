@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23e469c6-b1ad-4f66-9af3-d3e59666a3fb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Code_Chall/Chall_9_SForde/Chall_9_PyFile_SForde.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code_Chall/Chall_9_SForde/Chall_9_PyFile_SForde.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +43,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.Chall_9_PyFile_SForde.executor&quot;: &quot;Run&quot;,
     &quot;Python.Find Areas Suitable for Development.executor&quot;: &quot;Run&quot;,
     &quot;Python.Midterm_Tool_SForde.executor&quot;: &quot;Run&quot;,
     &quot;Python.Step_0 (1).executor&quot;: &quot;Run&quot;,
@@ -81,8 +83,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Step_4 (1)">
-    <configuration name="Step_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Chall_9_PyFile_SForde">
+    <configuration name="Chall_9_PyFile_SForde" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,11 +93,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Class_09" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code_Chall/Chall_9_SForde" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_09/Step_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code_Chall/Chall_9_SForde/Chall_9_PyFile_SForde.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -240,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Chall_9_PyFile_SForde" />
         <item itemvalue="Python.Step_4 (1)" />
         <item itemvalue="Python.Step_4_Answers" />
         <item itemvalue="Python.Step_3" />
         <item itemvalue="Python.Step_2" />
-        <item itemvalue="Python.Step_1" />
       </list>
     </recent_temporary>
   </component>
