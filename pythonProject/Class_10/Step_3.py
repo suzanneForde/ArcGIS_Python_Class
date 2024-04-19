@@ -83,31 +83,31 @@ for i in training_shp:
 # https://pro.arcgis.com/en/pro-app/tool-reference/spatial-analyst/cell-statistics.htm
 # 7. Add clean up code to remove temporary files.
 
-# test_shp = arcpy.ListFeatureClasses("*test*")
-# pearson_values = []
-# raster_list = []
-#
-# for fc in test_shp:
-#     run = fc.split("_")
-#     arcpy.gp.ExtractValuesToPoints_sa(fc, "elev_" + str(run[1]) + ".tif", "elev_" + str(run[1]) + "_valid.shp", "NONE", "VALUE_ONLY")
-#     arr = arcpy.da.FeatureClassToNumPyArray("elev_" + str(run[1]) + "_valid.shp", ["Elevation", "RASTERVALU"])
-#     print("Interpolation " + str(run[1]) + " correlation = " + str(pearsonr(arr["Elevation"], arr["RASTERVALU"])))
-#
-#     pearson_values.append(pearsonr(arr["Elevation"], arr["RASTERVALU"])[0])
-#     raster_list.append("elev_" + str(run[1]) + ".tif")
-#
-#     arcpy.Delete_management("elev_" + str(run[1]) + "_valid.shp")
-#     arcpy.Delete_management("elv_" + str(run[1]) + "_train.shp")
-#     arcpy.Delete_management("elv_" + str(run[1]) + "_test.shp")
-#
-# print("Overall mean: " + str(sum(pearson_values) / float(len(pearson_values))))
-#
-# outCellStats = arcpy.sa.CellStatistics(raster_list, "MEAN", "DATA")
-# outCellStats.save("out_surface_mean.tif")
-#
-# outCellStats = arcpy.sa.CellStatistics(raster_list, "STD", "DATA")
-# outCellStats.save("out_surface_std.tif")
-#
-# for i in raster_list:
-#     arcpy.Delete_management(i)
+test_shp = arcpy.ListFeatureClasses("*test*")
+pearson_values = []
+raster_list = []
+
+for fc in test_shp:
+    run = fc.split("_")
+    arcpy.gp.ExtractValuesToPoints_sa(fc, "elev_" + str(run[1]) + ".tif", "elev_" + str(run[1]) + "_valid.shp", "NONE", "VALUE_ONLY")
+    arr = arcpy.da.FeatureClassToNumPyArray("elev_" + str(run[1]) + "_valid.shp", ["Elevation", "RASTERVALU"])
+    print("Interpolation " + str(run[1]) + " correlation = " + str(pearsonr(arr["Elevation"], arr["RASTERVALU"])))
+
+    pearson_values.append(pearsonr(arr["Elevation"], arr["RASTERVALU"])[0])
+    raster_list.append("elev_" + str(run[1]) + ".tif")
+
+    arcpy.Delete_management("elev_" + str(run[1]) + "_valid.shp")
+    arcpy.Delete_management("elv_" + str(run[1]) + "_train.shp")
+    arcpy.Delete_management("elv_" + str(run[1]) + "_test.shp")
+
+print("Overall mean: " + str(sum(pearson_values) / float(len(pearson_values))))
+
+outCellStats = arcpy.sa.CellStatistics(raster_list, "MEAN", "DATA")
+outCellStats.save("out_surface_mean.tif")
+
+outCellStats = arcpy.sa.CellStatistics(raster_list, "STD", "DATA")
+outCellStats.save("out_surface_std.tif")
+
+for i in raster_list:
+    arcpy.Delete_management(i)
 
