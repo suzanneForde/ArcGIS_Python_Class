@@ -19,12 +19,12 @@
 # (e.g. an ArcMap layout in PDF format), showing the patterns for an area of RI that you find interesting.
 
 import arcpy
-arcpy.env.workspace = ""C:\Users\Suzie\OneDrive\Desktop\Chall_10_Data_folder""
+arcpy.env.workspace = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_10_SForde\Landsat_Data_Folder"
 
-# List all the Landsat files
+# List the landsat files
 landsat_files = arcpy.ListRasters()
 
-# Loop through each Landsat file
+# looping through each Landsat file
 for landsat_file in landsat_files:
     # Extract month from file name (assuming file names have format: Landsat_YYYY_MM)
     month = landsat_file.split("_")[1]
