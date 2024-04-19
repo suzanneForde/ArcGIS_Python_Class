@@ -26,20 +26,20 @@ landsat_files = arcpy.ListRasters()
 
 # looping through each Landsat file
 for landsat_file in landsat_files:
-    # Extract month from file name (assuming file names have format: Landsat_YYYY_MM)
+    # month from file name
     month = landsat_file.split("_")[1]
 
-    # Extract NIR and VIS bands
+    # NIR and VIS bands
     nir_band = arcpy.Raster(landsat_file + "\\Band5")
     vis_band = arcpy.Raster(landsat_file + "\\Band4")
 
-    # Calculate NDVI
+    # calculate NDVI
     ndvi = (nir_band - vis_band) / (nir_band + vis_band)
 
-    # Save NDVI raster
+    # save NDVI raster
     ndvi.save("NDVI_" + month)
 
-    print("NDVI calculation completed for month:", month)
+print("NDVI calculation completed for month:", month)
 
 print("All NDVI calculations completed.")
 
