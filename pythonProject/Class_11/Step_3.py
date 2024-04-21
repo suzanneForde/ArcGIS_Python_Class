@@ -8,9 +8,12 @@
 # http://desktop.arcgis.com/en/arcmap/10.3/analyze/creating-tools/defining-parameters-in-a-python-toolbox.htm)
 
 # I want you to attempt to construct a working Python Toolbox. Hint the code is the same as we used before for the
-# traditional toolbox, however, I have changed how the arguements are provided to the tool.
+# traditional toolbox, however, I have changed how the arguments are provided to the tool.
 
 # Code for parameters function
+
+import arcpy
+
 params = []
 input_line = arcpy.Parameter(name="input_line",
                              displayName="Input Line",
@@ -38,6 +41,7 @@ output = arcpy.Parameter(name="output",
                          )
 output.value = "YOUR OUTPUT DIR HERE" # This is a default value that can be over-ridden in the toolbox
 params.append(output)
+
 return params
 
 # Code for execution function
