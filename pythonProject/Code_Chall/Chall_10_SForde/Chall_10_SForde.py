@@ -19,31 +19,53 @@
 # (e.g. an ArcMap layout in PDF format), showing the patterns for an area of RI that you find interesting.
 
 import arcpy
-arcpy.env.workspace = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_10_SForde\Landsat_Data_Folder"
+import os
 
-# List the landsat files
-landsat_files = arcpy.ListRasters()
+landsat_folder = r"C:\Users\Suzie\OneDrive\Desktop\Chall_10_Data\Landsat_Files"
+arcpy.env.workspace = landsat_folder
 
-# looping through each Landsat file
-for landsat_file in landsat_files:
-    # month from file name
-    month = landsat_file.split("_")[1]
+# list of all folders in the Landsat folder
+folder_list = [folder for folder in os.listdir(landsat_folder) if os.path.isdir(os.path.join(landsat_folder, folder))]
 
-    # NIR and VIS bands
-    nir_band = arcpy.Raster(landsat_file + "\\Band5")
-    vis_band = arcpy.Raster(landsat_file + "\\Band4")
+# loop through each folder
+for folder in folder_list:
+    # month from the folder name (last two characters)
+    month = folder[-2:]
 
-    # calculate NDVI
-    ndvi = (nir_band - vis_band) / (nir_band + vis_band)
+    # list of all TIFF files in folder
+    tif_files = [file for file in os.listdir(os.path.join(landsat_folder, folder)) if file.endswith('.tif')]
 
-    # save NDVI raster
-    ndvi.save("NDVI_" + month)
+    # variables to store NIR and VIS band paths
+    nir_band_path = None
+    vis_band_path = None
 
-print("NDVI calculation completed for month:", month)
+    # find NIR and VIS bands within current folder
+    for file in tif_files:
+        if file.endswith('_B5.tif'):  # NIR band
+            nir_band_path = os.path.join(landsat_folder, folder, file)
+        elif file.endswith('_B4.tif'):  # VIS band
+            vis_band_path = os.path.join(landsat_folder, folder, file)
+
+    # check if both NIR and VIS bands are found
+    if nir_band_path and vis_band_path:
+        # open NIR and VIS bands as rasters
+        nir_band = arcpy.Raster(nir_band_path)
+        vis_band = arcpy.Raster(vis_band_path)
+
+        # calculate NDVI
+        ndvi = (nir_band - vis_band) / (nir_band + vis_band)
+
+        # define output NDVI raster path
+        ndvi_output_path = os.path.join(landsat_folder, folder, "NDVI_" + month + ".tif")
+
+        # save NDVI raster
+        arcpy.CopyRaster_management(ndvi, ndvi_output_path, "", "", "", "NONE", "NONE", "")
+
+        print("NDVI calculation completed for month:", month, "in folder:", folder)
+        print("Output NDVI raster saved to:", ndvi_output_path)
+    else:
+        print("NIR or VIS band not found in folder:", folder)
 
 print("All NDVI calculations completed.")
-
-
-
 
 
