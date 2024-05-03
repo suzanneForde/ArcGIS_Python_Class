@@ -14,7 +14,7 @@
 
 import arcpy
 
-arcpy.env.workspace = r"C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Code_Chall\Chall_9_SForde\RI_Forest_Data_Folder"
+arcpy.env.workspace = r"H:\NRS528_2024\Suzie_Forde\pythonProject\Code_Chall\Chall_9_SForde\RI_Forest_Data_Folder"
 RI_Forest = "RI_Forest_Health_Works_Project%3A_Points_All_Invasives.shp"
 
 output_with_photos = "RI_Forest_With_Photos.shp"
