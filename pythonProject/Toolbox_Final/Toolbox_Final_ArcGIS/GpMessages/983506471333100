@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Friday, May 10, 2024 5:05:35 AM</msg><msg code="1" type="100">Traceback (most recent call last):
+  File "&lt;string&gt;", line 39, in execute
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 7253, in Rename
+    raise e
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 7250, in Rename
+    retval = convertArcObjectToPythonObject(gp.Rename_management(*gp_fixargs((in_data, out_data, data_type), True)))
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\geoprocessing\_base.py", line 520, in &lt;lambda&gt;
+    return lambda *args: val(*gp_fixargs(args, True))
+arcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.
+ERROR 000732: Input Data Element: Dataset State_Comprehensive_Outdoor_Recreation_Plan_Inventory_of_Facilities does not exist or is not supported
+Failed to execute (Rename).
+
+</msg><msg code="-2147467259" type="100">Failed to execute (ShapefileRenamerTool).</msg><msg code="0" type="3">Failed at Friday, May 10, 2024 5:05:35 AM (Elapsed Time: 0.20 seconds)</msg></messages>

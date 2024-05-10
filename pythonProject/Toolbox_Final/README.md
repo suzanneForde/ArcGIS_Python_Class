@@ -1,28 +1,18 @@
 # ArcGIS Toolbox (Final Assignment)
 
-This Python Toolbox contains three geoprocessing tools designed to perform common operations on spatial data using ArcPy. Each tool serves a specific purpose and can be used individually or as part of a larger workflow.
+This Python Toolbox consists of three geoprocessing tools designed for common operations on spatial data using ArcPy. Each tool serves a specific purpose and can be used individually or as part of a larger workflow.
 
 ## Tools
 
-### 1. Shapefile Renamer Tool
+### 1. Field Lister Tool
 
-The Shapefile Renamer Tool allows you to rename a shapefile to a new name of your choice. This tool is useful for organizing and managing spatial datasets within a GIS environment.
-
-#### Usage
-
-- **Input Shapefile**: Select the shapefile you want to rename.
-- **New Name**: Specify the new name for the shapefile.
-
-### 2. Area Calculator Tool
-
-The Area Calculator Tool calculates the total area of features in a feature class and allows you to specify the output unit (square meters, acres, or square feet). This tool is handy for estimating land area or analyzing spatial data.
+The Field Lister Tool lists the fields of a shapefile, providing users with insights into the attribute structure of their spatial data.
 
 #### Usage
 
-- **Input Feature**: Choose the feature class for which you want to calculate the area.
-- **Output Unit**: Select the desired unit for the calculated area (square meters, acres, or square feet).
+- **Input Shapefile**: Select the shapefile for which you want to list the fields.
 
-### 3. Buffer Tool
+### 2. Buffer Tool
 
 The Buffer Tool creates a buffer around features in a feature class based on a specified buffer distance. Buffers are commonly used in spatial analysis to analyze proximity or create visual representations of spatial relationships.
 
@@ -32,15 +22,28 @@ The Buffer Tool creates a buffer around features in a feature class based on a s
 - **Output Feature**: Specify the output feature class where the buffered features will be saved.
 - **Buffer Distance**: Define the distance for the buffer zone around features.
 
+### 3. Polygon Area Tool
+
+The Polygon Area Tool calculates the area of a single polygon feature within a feature class. This tool provides valuable information for analyzing spatial data, such as land area estimation or spatial pattern analysis.
+
+#### Usage
+
+- **Input Polygon**: Choose the polygon feature for which you want to calculate the area.
+- **Output Area**: The calculated area of the input polygon.
+
+
+Feel free to utilize and modify these tools to suit your specific GIS needs.
+
+
 ## Example Data
 
 To test the functionality of each tool, you can use the example datasets from the provided Data_Folder. I recommend adding each shapefile to your map contents pane.
 
-- Shapefile Renamer Tool: After opening this tool, you will see a drop-down option. Use the "State_Comprehensive_Outdoor_Recreation_Plan_Inventory_of_Facilities.shp" and input "RI_Recreation" in the "New Name" parameter. Run the tool.
+- Field Lister Tool: After opening this tool, you can use any of the files provided. Once the tool is run, the "messages" tab will list all fields in file.
 
-- Area Calculator Tool: Select "State_Boundary_(1997).shp" shapefile by using drop-down option to calculate the area of the state of Rhode Island. Select your preferred unit. Run the tool.
+- Buffer Tool: Select the "State_Comprehensive_Outdoor_Recreation_Plan_Inventory_of_Facilities". Provide a name for your output feature. Input buffer distance and unit of measurement. Run the tool. If you navigate to the provided geodatabase, and open the shapefile with the name "Recreation_buffer" in ArcGIS, you will see the shapefile I created with the tool using an input of .5 miles to create the buffer around outdoor recreation in RI.
 
-- Buffer Tool: Select the "RI_DOT_Bike_Paths.shp" shapefile using the drop-down function. Provide a name for your output feature. Input buffer distance and unit of measurement. Run the tool.
+- Polygon Area Tool: Use the provided "Municipalities_(1997)" shapefile and select a preferred unit of measurement.
 
 ## Installation
 

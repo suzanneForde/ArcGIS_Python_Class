@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Friday, May 10, 2024 5:17:26 AM</msg><msg code="1" type="100">Traceback (most recent call last):
+  File "&lt;string&gt;", line 139, in execute
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\analysis.py", line 749, in SpatialJoin
+    raise e
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\analysis.py", line 746, in SpatialJoin
+    retval = convertArcObjectToPythonObject(gp.SpatialJoin_analysis(*gp_fixargs((target_features, join_features, out_feature_class, join_operation, join_type, field_mapping, match_option, search_radius, distance_field_name, match_fields), True)))
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\geoprocessing\_base.py", line 520, in &lt;lambda&gt;
+    return lambda *args: val(*gp_fixargs(args, True))
+arcgisscripting.ExecuteError: ERROR 000622: Failed to execute (Spatial Join). Parameters are not valid.
+ERROR 000800: The value is not a member of KEEP_ALL | KEEP_COMMON.
+
+</msg><msg code="-2147467259" type="100">Failed to execute (SpatialJoinTool).</msg><msg code="0" type="3">Failed at Friday, May 10, 2024 5:17:27 AM (Elapsed Time: 0.44 seconds)</msg></messages>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Friday, May 10, 2024 4:22:16 AM</msg><msg code="1" type="100">Traceback (most recent call last):
+  File "&lt;string&gt;", line 68, in execute
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 5174, in AddField
+    raise e
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 5171, in AddField
+    retval = convertArcObjectToPythonObject(gp.AddField_management(*gp_fixargs((in_table, field_name, field_type, field_precision, field_scale, field_length, field_alias, field_is_nullable, field_is_required, field_domain), True)))
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\geoprocessing\_base.py", line 520, in &lt;lambda&gt;
+    return lambda *args: val(*gp_fixargs(args, True))
+arcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.
+ERROR 000732: Input Table: Dataset C:\NRS528_Py_GIS\ArcGIS_Python_Class\pythonProject\Toolbox_Final\Toolbox_Final_ArcGIS\Toolbox_Final.gdb\State_Boundary_1997_AreaCalculatorTool does not exist or is not supported
+Failed to execute (AddField).
+
+</msg><msg code="-2147467259" type="100">Failed to execute (AreaCalculatorTool).</msg><msg code="0" type="3">Failed at Friday, May 10, 2024 4:22:17 AM (Elapsed Time: 0.55 seconds)</msg></messages>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Friday, May 10, 2024 3:52:25 AM</msg><msg code="1" type="100">Traceback (most recent call last):
+  File "&lt;string&gt;", line 88, in execute
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 4137, in CalculateGeometryAttributes
+    raise e
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 4134, in CalculateGeometryAttributes
+    retval = convertArcObjectToPythonObject(gp.CalculateGeometryAttributes_management(*gp_fixargs((in_features, geometry_property, length_unit, area_unit, coordinate_system, coordinate_format), True)))
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\geoprocessing\_base.py", line 520, in &lt;lambda&gt;
+    return lambda *args: val(*gp_fixargs(args, True))
+arcgisscripting.ExecuteError: Failed to execute. Parameters are not valid.
+ERROR 000800: The value is not a member of Area (geodesic) | Perimeter length (geodesic) | Number of parts | Number of vertices | Number of holes | Number of curves | Centroid x-coordinate | Centroid y-coordinate | Central point x-coordinate | Central point y-coordinate | Minimum x-coordinate | Minimum y-coordinate | Maximum x-coordinate | Maximum y-coordinate.
+Failed to execute (CalculateGeometryAttributes).
+
+</msg><msg code="-2147467259" type="100">Failed to execute (AreaCalculatorTool).</msg><msg code="0" type="3">Failed at Friday, May 10, 2024 3:52:27 AM (Elapsed Time: 2.05 seconds)</msg></messages>
