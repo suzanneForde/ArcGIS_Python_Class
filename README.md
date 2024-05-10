@@ -7,8 +7,6 @@
 
 Hey there! I'm Suzie, a second-year graduate student pursuing a Master's in Environmental Science and Management at the University of Rhode Island. My passion lies in environmental planning and design, where I aim to leverage GIS and remote sensing technologies to tackle complex environmental challenges.
 
-![fish_portrait](https://github.com/suzanneForde/ArcGIS_Python_Class/assets/157830253/85273932-c23e-4cae-8c0f-89e290395d3b)
-Here's a portrait of me. I cut the background out and inserted a picture I took of a small reef tank.
 
 ### Education
 1. University of Rhode Island
@@ -22,9 +20,9 @@ Here's a portrait of me. I cut the background out and inserted a picture I took 
 	- GPA: 3.31, cum laude
 
 ### Certifications
-University of Rhode Island
-	- Expected Completion: December 2024
-Certifications:
+- University of Rhode Island
+	- Expected Completion Date: December 2024
+- Titles:
 	- Geographic Information Systems and Remote Sensing
 	- Community Planning
 
@@ -36,4 +34,4 @@ Certifications:
 
 
 
-### Take a look @ my [photography blog](https://sites.google.com/uri.edu/suziesphotography)!
+### Take a look at my [photography blog](https://sites.google.com/uri.edu/suziesphotography)!
