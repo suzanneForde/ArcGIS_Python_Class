@@ -22,9 +22,8 @@ Hey there! I'm Suzie, a second-year graduate student pursuing a Master's in Envi
 ### Certifications
 - University of Rhode Island
 	- Expected Completion Date: December 2024
-- Titles:
-	- Geographic Information Systems and Remote Sensing
-	- Community Planning
+		- Geographic Information Systems and Remote Sensing
+		- Community Planning
 
 
 ### Skills + Interests
