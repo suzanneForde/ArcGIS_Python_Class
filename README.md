@@ -10,7 +10,7 @@ Hey there! I'm Suzie, a second-year graduate student pursuing a Master's in Envi
 ![fish_portrait](https://github.com/suzanneForde/ArcGIS_Python_Class/assets/157830253/85273932-c23e-4cae-8c0f-89e290395d3b)
 Here's a portrait of me. I cut the background out and inserted a picture I took of a small reef tank.
 
-## Education
+### Education
 1. University of Rhode Island
 - Expected Graduation: December 2024
 	- Degree: Master's of Environmental Science and Management
@@ -21,21 +21,18 @@ Here's a portrait of me. I cut the background out and inserted a picture I took 
 	- Degrees: B.A. Marine Affairs, B.A. English
 	- GPA: 3.31, cum laude
 
+### Certifications
+University of Rhode Island
+	- Expected Completion: December 2024
+Certifications:
+	- Geographic Information Systems and Remote Sensing
+	- Community Planning
 
 
-
-
-### Skills
-+ Fluent in Spanish
-+ 3 years of GIS experience
-+ Sharp attention to detail
-
-
-### Hobbies
-+ Photography
-+ Baking (I used to work in a cupcake shop)
-+ Reading boring books
-+ Creative writing (mostly poetry)
+### Skills + Interests
++ Technical Skills: Proficient in GIS and Remote Sensing
++ Languages: Fluent in Spanish
++ Hobbies: Photography, Baking, Creative Writing
 
 
 
