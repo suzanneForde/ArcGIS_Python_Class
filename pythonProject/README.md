@@ -12,7 +12,9 @@ Here, you'll find completed solo assignments undertaken prior to each class sess
 
 ## 3. Toolbox_Final
 
-This directory houses my final assignment for the course, the Python Toolbox. I dreated one toolbox with three tools:
+This directory houses my final assignment for the course, the Python Toolbox. I created one toolbox with three tools:
 - Field Lister Tool
 - Buffer Tool
 - Polygon Area Tool
+
+For more context, please feel free to navigate through any subdirectory!
