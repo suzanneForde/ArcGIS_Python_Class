@@ -5,93 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23e469c6-b1ad-4f66-9af3-d3e59666a3fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Data_Folder/RI_DOT_Bike_Paths.cpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Data_Folder/RI_DOT_Bike_Paths.dbf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Data_Folder/RI_DOT_Bike_Paths.prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Data_Folder/RI_DOT_Bike_Paths.shp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Data_Folder/RI_DOT_Bike_Paths.shx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Data_Folder/State_Boundary_(1997).cpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Data_Folder/State_Boundary_(1997).dbf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Data_Folder/State_Boundary_(1997).prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Data_Folder/State_Boundary_(1997).shp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Data_Folder/State_Boundary_(1997).shx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/FileRenamer_Buffer_AreaCalculator_Toolbox.Tool.pyt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/ProjectionandRenamerTool.Tool.pyt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Renamer_Buffer_AreaCalculator.AreaCalculatorTool.pyt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Renamer_Buffer_AreaCalculator.BufferTool.pyt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Renamer_Buffer_AreaCalculator.FileRenamerTool.pyt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Renamer_Buffer_AreaCalculator.ShapefileRenamerTool.pyt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Renamer_Buffer_AreaCalculator.Tool.pyt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Renamer_Buffer_AreaCalculator.pyt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Renamer_Buffer_AreaCalculator.pyt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Renamer_Buffer_AreaCalculator_Tool.AreaCalculatorTool.pyt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Renamer_Buffer_AreaCalculator_Tool.BufferTool.pyt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Renamer_Buffer_AreaCalculator_Tool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/.backups/Toolbox_Final.aprx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/GpMessages/965837878217600" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/GpMessages/965908246853800" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/ImportLog/fb82b652470440fea1a0fcad7cd91d06_Import.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/RI_DOT_Bike_Paths_BufferTool1.cpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/RI_DOT_Bike_Paths_BufferTool1.dbf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/RI_DOT_Bike_Paths_BufferTool1.prj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/RI_DOT_Bike_Paths_BufferTool1.sbn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/RI_DOT_Bike_Paths_BufferTool1.sbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/RI_DOT_Bike_Paths_BufferTool1.shp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/RI_DOT_Bike_Paths_BufferTool1.shp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/RI_DOT_Bike_Paths_BufferTool1.shx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.aprx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.atbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000001.TablesByName.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000001.gdbindexes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000001.gdbtable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000001.gdbtablx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000002.gdbtable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000002.gdbtablx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000003.gdbindexes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000003.gdbtable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000003.gdbtablx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000004.CatItemsByPhysicalName.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000004.CatItemsByType.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000004.FDO_UUID.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000004.gdbindexes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000004.gdbtable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000004.gdbtablx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000004.horizon" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000004.spx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000005.CatItemTypesByName.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000005.CatItemTypesByParentTypeID.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000005.CatItemTypesByUUID.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000005.gdbindexes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000005.gdbtable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000005.gdbtablx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000006.CatRelsByDestinationID.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000006.CatRelsByOriginID.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000006.CatRelsByType.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000006.FDO_UUID.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000006.gdbindexes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000006.gdbtable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000006.gdbtablx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000007.CatRelTypesByBackwardLabel.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000007.CatRelTypesByDestItemTypeID.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000007.CatRelTypesByForwardLabel.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000007.CatRelTypesByName.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000007.CatRelTypesByOriginItemTypeID.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000007.CatRelTypesByUUID.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000007.gdbindexes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000007.gdbtable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/a00000007.gdbtablx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/gdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final.gdb/timestamps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final_index/Thumbnail/-990349529.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final_index/Thumbnail/indx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final_index/Toolbox_Final/_0.cfe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final_index/Toolbox_Final/_0.cfs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final_index/Toolbox_Final/_0.si" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final_index/Toolbox_Final/segments.gen" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final/Toolbox_Final_index/Toolbox_Final/segments_1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Toolbox_Final/State_Comprehensive_Outdoor_Recreation_Plan_Inventory_of_Facilities_1392755678954786161.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Toolbox_Final/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Toolbox_Final/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +83,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Merging main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/NRS528_Py_GIS",
     "settings.editor.selected.configurable": "preferences.intentionPowerPack"
