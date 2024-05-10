@@ -1,15 +1,27 @@
-# Hello there!
+# Welcome to my GitHub Portfolio!
 
 
 
-## My name is **Suzie**,
+## About Me
 
 
-I'm currently a second-year graduate student in the Master of Environmental Science and Management program at the University of Rhode Island. My specialization is in environmental planning and design, and I'm currently working towards two graduate certificates in community planning and GIS and remote sensing. In undergrad, I double majored in Marine Affairs (B.A.) and English (B.A.) also at URI.
-
+Hey there! I'm Suzie, a second-year graduate student pursuing a Master's in Environmental Science and Management at the University of Rhode Island. My passion lies in environmental planning and design, where I aim to leverage GIS and remote sensing technologies to tackle complex environmental challenges.
 
 ![fish_portrait](https://github.com/suzanneForde/ArcGIS_Python_Class/assets/157830253/85273932-c23e-4cae-8c0f-89e290395d3b)
 Here's a portrait of me. I cut the background out and inserted a picture I took of a small reef tank.
+
+## Education
+1. University of Rhode Island
+- Expected Graduation: December 2024
+	- Degree: Master's of Environmental Science and Management
+	- Specialization: Environmental Planning & Design
+	- Relevant Coursework: Site Planning, Urban Design, Concepts of GIS in Environmental Science, Python and GIS
+2. University of Rhode Island
+- Graduation: May 2022
+	- Degrees: B.A. Marine Affairs, B.A. English
+	- GPA: 3.31, cum laude
+
+
 
 
 
