@@ -2,7 +2,7 @@
 # For this midterm tool, I originally decided to conduct a proximity analysis of libraries near 100 feet of schools in Providence.
 # However, this was too challenging because it seemed the data files I downloaded from RIGIS were corrupted.
 # Points for schools would not show up on ArcGIS even though the shapefiles contained data (in the attribute tables)
-# Instead I conducted a proximity analysis of bus stops within 1 mile of libraries.
+# Instead I conducted a proximity analysis of bus stops within 1,320 feet of libraries.
 # This information could be used to create a bus guide for local residents in need of books or other materials.
 
 

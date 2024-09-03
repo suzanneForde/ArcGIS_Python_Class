@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23e469c6-b1ad-4f66-9af3-d3e59666a3fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final_ArcGIS/Toolbox_Final_index/Toolbox_Final/_0_1.del" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final_ArcGIS/Toolbox_Final_index/Toolbox_Final/_37.cfe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final_ArcGIS/Toolbox_Final_index/Toolbox_Final/_37.cfs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final_ArcGIS/Toolbox_Final_index/Toolbox_Final/_37.si" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final_ArcGIS/Toolbox_Final_index/Toolbox_Final/segments_6f" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Midterm_Tool_SForde/Midterm_Tool_SForde.py" beforeDir="false" afterPath="$PROJECT_DIR$/Midterm_Tool_SForde/Midterm_Tool_SForde.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final_ArcGIS/Toolbox_Final_index/Toolbox_Final/segments.gen" beforeDir="false" afterPath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final_ArcGIS/Toolbox_Final_index/Toolbox_Final/segments.gen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Toolbox_Final/Toolbox_Final_ArcGIS/Toolbox_Final_index/Toolbox_Final/segments_1" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,53 +50,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.Chall_10_SForde.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Chall_9_PyFile_SForde.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Find Areas Suitable for Development.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Midterm_Tool_SForde.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Py_Toolbox_TEST.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Python_Toolbox.pyt.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_0 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_0.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_0_Answers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_1 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_2_Answers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_3 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_4 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_4_Answers.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Step_6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week2_Part1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week2_Part2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week2_Part2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week2_Part3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week2_Part4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week2_Part5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week3_Part1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week3_Part2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week3_Part3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week4_Part1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week5_FileConversion.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week5_Part1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Week8_Part1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/NRS528_Py_GIS&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.intentionPowerPack&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.Chall_10_SForde.executor": "Run",
+    "Python.Chall_9_PyFile_SForde.executor": "Debug",
+    "Python.Find Areas Suitable for Development.executor": "Run",
+    "Python.Midterm_Tool_SForde.executor": "Run",
+    "Python.Py_Toolbox_TEST.executor": "Run",
+    "Python.Python_Toolbox.pyt.executor": "Run",
+    "Python.Step_0 (1).executor": "Run",
+    "Python.Step_0.executor": "Run",
+    "Python.Step_0_Answers.executor": "Run",
+    "Python.Step_1 (1).executor": "Run",
+    "Python.Step_1.executor": "Run",
+    "Python.Step_2 (1).executor": "Run",
+    "Python.Step_2.executor": "Run",
+    "Python.Step_2_Answers.executor": "Run",
+    "Python.Step_3 (1).executor": "Run",
+    "Python.Step_3.executor": "Run",
+    "Python.Step_4 (1).executor": "Run",
+    "Python.Step_4.executor": "Run",
+    "Python.Step_4_Answers.executor": "Run",
+    "Python.Step_5.executor": "Run",
+    "Python.Step_6.executor": "Run",
+    "Python.Week2_Part1.executor": "Run",
+    "Python.Week2_Part2 (1).executor": "Run",
+    "Python.Week2_Part2.executor": "Run",
+    "Python.Week2_Part3.executor": "Run",
+    "Python.Week2_Part4.executor": "Run",
+    "Python.Week2_Part5.executor": "Run",
+    "Python.Week3_Part1.executor": "Run",
+    "Python.Week3_Part2.executor": "Run",
+    "Python.Week3_Part3.executor": "Run",
+    "Python.Week4_Part1.executor": "Run",
+    "Python.Week5_FileConversion.executor": "Run",
+    "Python.Week5_Part1.executor": "Run",
+    "Python.Week8_Part1.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/NRS528_Py_GIS",
+    "settings.editor.selected.configurable": "preferences.intentionPowerPack"
   }
-}</component>
-  <component name="RunManager" selected="Python.Chall_10_SForde">
+}]]></component>
+  <component name="RunManager" selected="Python.Chall_9_PyFile_SForde">
     <configuration name="Chall_10_SForde" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -103,6 +111,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code_Chall/Chall_10_SForde/Chall_10_SForde.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Chall_9_PyFile_SForde" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Code_Chall/Chall_9_SForde" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Code_Chall/Chall_9_SForde/Chall_9_PyFile_SForde.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,28 +207,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Step_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Class_10" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_10/Step_3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Step_4" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -247,11 +255,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Chall_9_PyFile_SForde" />
         <item itemvalue="Python.Chall_10_SForde" />
         <item itemvalue="Python.Py_Toolbox_TEST" />
         <item itemvalue="Python.Python_Toolbox.pyt" />
         <item itemvalue="Python.Step_3 (1)" />
-        <item itemvalue="Python.Step_3" />
       </list>
     </recent_temporary>
   </component>
