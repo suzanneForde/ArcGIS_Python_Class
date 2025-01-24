@@ -10,18 +10,18 @@ Hey there! I'm Suzie, a second-year graduate student pursuing a Master's in Envi
 
 ### Education
 1. University of Rhode Island
-- Expected Graduation: December 2024
+- Graduated: December 2024
 	- Degree: Master's of Environmental Science and Management
 	- Specialization: Environmental Planning & Design
 	- Relevant Coursework: Site Planning, Urban Design, Concepts of GIS in Environmental Science, Python and GIS
 2. University of Rhode Island
-- Graduation: May 2022
+- Graduated: May 2022
 	- Degrees: B.A. Marine Affairs, B.A. English
 	- GPA: 3.31, cum laude
 
 ### Certifications
 - University of Rhode Island
-	- Expected Completion Date: December 2024
+	- Completion Date: December 2024
 		- Geographic Information Systems and Remote Sensing
 		- Community Planning
 
