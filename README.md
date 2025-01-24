@@ -14,10 +14,11 @@ Hey there! I'm Suzie, a second-year graduate student pursuing a Master's in Envi
 	- Degree: Master's of Environmental Science and Management
 	- Specialization: Environmental Planning & Design
 	- Relevant Coursework: Site Planning, Urban Design, Concepts of GIS in Environmental Science, Python and GIS
+ 	- GPA: 3.51
 2. University of Rhode Island
 - Graduated: May 2022
 	- Degrees: B.A. Marine Affairs, B.A. English
-	- GPA: 3.31, cum laude
+	- GPA: 3.31
 
 ### Certifications
 - University of Rhode Island
